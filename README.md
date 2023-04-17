@@ -12,6 +12,32 @@ The project I am working on is a mirror who describes the main health functions 
 
 #### [**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
 
+### retro planning
+
+- 2023
+  - March :
+    - [x] find moonshot project
+  - April :
+    - [x] make research document
+    - [ ] make research for mirror options
+    - [ ] make research for the fonctionality of devices
+  - May :
+  - June :
+  - July :
+  - August :
+  - September :
+  - October :
+  - November :
+  - December :
+- 2024
+  - January :
+  - February :
+  - March :
+  - April :
+  - May :
+  - June :
+
 ### Documents links / plan
 
 01/01/2023 : [Idea of Moonshot Project](moonshot_project.md)
+04/17/2023 : [Mirror health research](mirror-health_product.md)
