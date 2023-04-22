@@ -11,8 +11,9 @@
 
 ### Description
 
-Mirror health is a mirror who allows you to take your pulse, your temperature, control your diabete, your lack of sleeping.
-For that, many devices are integrate inside the mirror like termometer laser, propac [^1], or also glucosemeter [^2].
+Mirror health is a mirror who allows you to take your pulse, your temperature, control your diabete, determine if you are alcoholic.
+For that, many devices are integrate inside the mirror like termometer laser, propac [^1] glucose meter [^2] or also a an breathalyzer [^3].
+We can also imagine the possibility to see make up tuto on YouTube, make some research on Google or call with camera, or not, someone.
 
 ### Why
 
@@ -36,6 +37,10 @@ ___
 ![propac](img/propac.jpg)
 Medical object used by hospitals and emergency services for pulse oximetry with a clamp
 
-[^2]: glucometer
+[^2]: glucose meter
 ![glucose meter](img/glucose_meter.jpg)
 It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped
+
+[^3]: breathalyzer
+![breathalyzer](img/breathalyzer.jpg)
+Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.

@@ -19,9 +19,9 @@ The project I am working on is a mirror who describes the main health functions 
     - [x] find moonshot project
   - April :
     - [x] make research document
-    - [ ] make research for mirror options
-    - [ ] make research for the fonctionality of devices
+    - [x] find options for mirror
   - May :
+    - [ ] make research for mirror options
   - June :
   - July :
   - August :
