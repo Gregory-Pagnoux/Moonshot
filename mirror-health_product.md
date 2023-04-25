@@ -6,7 +6,6 @@
   - [table of contents](#table-of-contents)
     - [Description](#description)
     - [Why](#why)
-    - [research table](#research-table)
     - [Glossary](#glossary)
 
 ### Description
@@ -21,14 +20,6 @@ In my family, we are the high risk type when it comes to cancer and disease. I o
 So, I decided to inspire me of this movie and of this idea, to make it a reaality. allows to people to take care of themselves in front of their mirror.
 Everyone have a mirror at home.
 
-### research table
-
-| Date | Site | Why |
-| :-: | :-: | :-: |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
 ___
 
 ### Glossary
@@ -38,9 +29,10 @@ ___
 Medical object used by hospitals and emergency services for pulse oximetry with a clamp
 
 [^2]: glucose meter
-![glucose meter](img/glucose_meter.jpg)
+![glucose meter](img/glucose_meter.png)
 It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped
 
 [^3]: breathalyzer
-![breathalyzer](img/breathalyzer.jpg)
+![breathalyzer](img/breathalyzer.png)
+https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId
 Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.

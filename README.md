@@ -18,10 +18,10 @@ The project I am working on is a mirror who describes the main health functions 
   - March :
     - [x] find moonshot project
   - April :
-    - [x] make research document
+    - [x] make product document
     - [x] find options for mirror
   - May :
-    - [ ] make research for mirror options
+    - [ ] start research for mirror options
   - June :
   - July :
   - August :
@@ -40,4 +40,4 @@ The project I am working on is a mirror who describes the main health functions 
 ### Documents links / plan
 
 01/01/2023 : [Idea of Moonshot Project](moonshot_project.md)
-04/17/2023 : [Mirror health research](mirror-health_product.md)
+04/17/2023 : [presentation of the mirror health](mirror-health_product.md)
