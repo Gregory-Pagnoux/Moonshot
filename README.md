@@ -19,9 +19,13 @@ The project I am working on is a mirror who describes the main health functions 
     - [x] find moonshot project
   - April :
     - [x] make product document
-    - [x] find options for mirror
+      - [x] describe the product
+      - [x] find at least 3 options
   - May :
-    - [ ] start research for mirror options
+    - [ ] start research for the mirror
+      - [ ] describe each options
+      - [x] find a competitor
+      - [x] find people concerned by the product
   - June :
   - July :
   - August :
@@ -40,4 +44,5 @@ The project I am working on is a mirror who describes the main health functions 
 ### Documents links / plan
 
 01/01/2023 : [Idea of Moonshot Project](moonshot_project.md)
-04/17/2023 : [presentation of the mirror health](mirror-health_product.md)
+04/17/2023 : [Presentation of the mirror health](mirror-health_product.md)
+05/18/2023 : [Research document](mirror-health_research.md)
