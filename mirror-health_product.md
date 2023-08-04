@@ -6,19 +6,33 @@
   - [table of contents](#table-of-contents)
     - [Description](#description)
     - [Why](#why)
+    - [Language](#language)
     - [Glossary](#glossary)
 
 ### Description
 
 Mirror health is a mirror who allows you to take your pulse, your temperature, control your diabete, determine if you are alcoholic.
-For that, many devices are integrate inside the mirror like thermometer laser[^1], pulse oxymeter[^2], glucose meter [^3] or also a breathalyzer [^4].
-We can also imagine the possibility to see make up tuto on YouTube, make some research on Google or call with camera, or not, someone.
+For that, many devices are integrate inside the mirror like thermometer laser[^1], pulse oxymeter[^2], glucose meter [^3] or also a breathalyzer [^4]. But, with more research, the pulse oxymeter isn't the best way to take the pulse. There are an option on the Samsung Galaxy Watch 4[^5] take the pulse without clamp, thanks to BioActive sensor.
+We can also imagine the possibility to have a tracking on your smartphone thanks to an application.
 
 ### Why
 
 In my family, we are the high risk type when it comes to cancer and disease. I once watched the movie "Seven Sisters" and saw the mirror that described every flaw in their face.
 So, I decided to inspire me of this movie and of this idea, to make it a reaality. allows to people to take care of themselves in front of their mirror.
 Everyone have a mirror at home.
+
+### Language
+
+The first selection of language is :
+
+| LANGUAGE | POSITIVE POINT | NEGATIVE POINT | CONVENIENCE |
+| :-: | :-: | :-: | :-: |
+| Java | - used on most digital media | - consumes a lot of memory <br> - simulations are slow <br> - not the easiest language to learn | 25% |
+| C | - supports structured programming, lexical variations and recursions <br> - used for operating systems, software development, and hardware <br> - enables software development that can run on different platforms without too many modifications <br> - fairly simple <br> - can be integrated on almost any modern microprocessor | - no runtime verification mechanism <br> - does not support object-oriented programming <br> - not very easy to learn | 57,14% |
+| C# | - powerful and flexible <br> - used for diverse software and applications, develop whatever you want <br> - .NET library, access to a large repertoire of features | - difficult to learn <br> - no cross-platform capability | 60% |
+| PHP | - easy to learn <br> - works well with databases, file systems, images, etc. | - some of the open source code is very old <br> - slower than its competitors <br> - its error handling is very poor. | 40% |
+
+The final choice was the C# or C.
 
 ___
 
@@ -39,3 +53,8 @@ It's a device allows to mesure the concentration of glucose in the blood thanks 
 [^4]: [breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)
 ![breathalyzer](img/breathalyzer.png)
 Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.
+
+[^5]: [Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)
+![Samsung Galaxy Watch 4](img/Samsung_Galaxy_Watch_4.jpg)
+Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
+[presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)

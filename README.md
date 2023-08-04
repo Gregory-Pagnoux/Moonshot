@@ -22,15 +22,22 @@ The project I am working on is a mirror who describes the main health functions 
       - [x] describe the product
       - [x] find at least 3 options
   - May :
-    - [ ] start research for the mirror
-      - [ ] describe each options
+    - [x] start research for the mirror
+      - [x] describe each options
       - [x] find a competitor
       - [x] find people concerned by the product
-  - June :
-  - July :
   - August :
+    - [x] conduct a field survey
+    - [x] define the language
+    - [x] financial plan
+    - [ ] create the design
   - September :
+    - [ ] make slide preparation
   - October :
+    - [ ] make Specifications
+      - [ ] Functional
+      - [ ] Technical
+      - [ ] Test Case
   - November :
   - December :
 - 2024
