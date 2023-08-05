@@ -15,6 +15,8 @@ Mirror health is a mirror who allows you to take your pulse, your temperature, c
 For that, many devices are integrate inside the mirror like thermometer laser[^1], pulse oxymeter[^2], glucose meter [^3] or also a breathalyzer [^4]. But, with more research, the pulse oxymeter isn't the best way to take the pulse. There are an option on the Samsung Galaxy Watch 4[^5] take the pulse without clamp, thanks to BioActive sensor.
 We can also imagine the possibility to have a tracking on your smartphone thanks to an application.
 
+![health mirror design](img/design.png)
+
 ### Why
 
 In my family, we are the high risk type when it comes to cancer and disease. I once watched the movie "Seven Sisters" and saw the mirror that described every flaw in their face.

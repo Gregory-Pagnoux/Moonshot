@@ -30,7 +30,11 @@ The project I am working on is a mirror who describes the main health functions 
     - [x] conduct a field survey
     - [x] define the language
     - [x] financial plan
-    - [ ] create the design
+    - [x] marketing
+      - [x] create the design
+      - [x] find name
+      - [x] find slogan
+      - [x] make the logo
   - September :
     - [ ] make slide preparation
   - October :
