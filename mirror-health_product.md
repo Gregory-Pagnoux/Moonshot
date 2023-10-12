@@ -1,13 +1,15 @@
 # Product
 
-## table of contents
+<details>
+<summary>Table of contents</summary>
 
 - [Product](#product)
-  - [table of contents](#table-of-contents)
     - [Description](#description)
     - [Why](#why)
     - [Language](#language)
     - [Glossary](#glossary)
+
+</details>
 
 ### Description
 
@@ -36,8 +38,6 @@ The first selection of language is :
 
 The final choice was the C# or C.
 
-___
-
 ### Glossary
 
 [^1]: [thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)
@@ -60,3 +60,4 @@ Device which evaluate if you are alcoholic thanks to sensors that analyze the ai
 ![Samsung Galaxy Watch 4](img/Samsung_Galaxy_Watch_4.jpg)
 Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
 [presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)
+

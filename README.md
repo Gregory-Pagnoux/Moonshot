@@ -12,7 +12,18 @@ The project I am working on is a mirror who describes the main health functions 
 
 #### [**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
 
-### retro planning
+### Documents links / plan
+
+01/01/2023 : [Idea of Moonshot Project](moonshot_project.md)
+04/17/2023 : [Presentation of the mirror health](mirror-health_product.md)
+05/18/2023 : [Research document](mirror-health_research.md)
+08/10/2023 : [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+<img alt="poster" src="/img/poster.png" width="350">
+
+<br>
+
+<details>
+<summary>Retro Planning</summary>
 
 - 2023
   - March :
@@ -61,8 +72,4 @@ The project I am working on is a mirror who describes the main health functions 
   - May :
   - June :
 
-### Documents links / plan
-
-01/01/2023 : [Idea of Moonshot Project](moonshot_project.md)
-04/17/2023 : [Presentation of the mirror health](mirror-health_product.md)
-05/18/2023 : [Research document](mirror-health_research.md)
+</details>

@@ -1,4 +1,4 @@
-# research
+# Research
 
 |  |  | **week of 04/15/2023** | **week of 04/29/2023** | **week of 05/06/2023** | **week of 05/13/2023** | **week of 08/05/2023** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -8,3 +8,7 @@
 | **What I learned** | **Main informations** |  | - CareOS is a french company create in 2017 in association with home leading brands Roca and Legrand to create mirror health like Artemis model (2600€) | - Everybody have a mirror in his home, everybody can install and use the mirror in his bathroom | - It will be cheaper to make the mirror yourself thanks a self-adhesif mirror and to put forward each button of the mirror, there is an LED strip | - It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health. <br> - 4 language are interresting to use, the PHP, C, C# and the Java because they are widely used, in part simple to use and quite well suited to the code being coded. |
 |  | **health options** | - Taking temperatures <br> - Pulse rates <br> - Blood alcohol levels <br> - Blood sugar levels | - Gesture recognition & control <br> - Vitals & Symptom check <br> - Vision Tests |  |  | - heart rate |
 |  | **ability options** |  | - Touchless interaction & voice command <br> - Face, mood & product recognition <br> - Multi-profile with admin management <br> - Integration with other connected devices & services <br> - Customized retail experience <br> - AR & AI-based features : avatar, try-ons, coaching, analysis with product recommendations <br> - Playlist & routines generator <br> - Practical & entertainment: Music, radio, camera, 360° videos, magnifier, tutorials, timer, sound & light management, toiletries level tracking & reordering |  | to communicate with the mirror, there are different button thanks the pressure sensors and a little screen can display the expected information thanks a transparent LED display |  |
+
+To help me in my research of options and to make the product that best meets the needs of the consumer and is the most useful for those who need it, I set up a [survey](https://forms.gle/DRDfuTzgF9muhY8D8) distributed in different places thanks a poster that I create.
+![poster](/img/poster.png)
+One poster on a street on a free panel, eight in pharmacies (two in the commune of Chasseneuil-sur-Bonnieure (16), 6 in the commune of Vierzon), one parapharmacy (in the commune of La Rochefoucauld) and one hospital (in the commune of Vierzon).

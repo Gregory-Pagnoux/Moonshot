@@ -1,10 +1,13 @@
-# financial plan
+# Financial plan
 
-## table of contents
-- [financial plan](#financial-plan)
-  - [table of contents](#table-of-contents)
+<details>
+<summary>Table of contents</summary>
+
+- [Financial plan](#financial-plan)
     - [V.1](#v1)
     - [V.2](#v2)
+
+</details>
 
 ### V.1
 
@@ -12,7 +15,7 @@ For the first version of the mirror we need to built a simple mirror to which we
 
 | WHICH PART | MATERIAL | PRICE |
 | :-: | :-: | :-: |
-| To built the mirror | glass (large photo frame) | free |
+| To built the mirror | glass (large photo frame) | already buy |
 |  | [self-adhesif mirror](https://www.amazon.fr/Lifemaison-Autocollant-Adhérence-Décoratif-50x200cm/dp/B0BCFVG4RT/ref=asc_df_B0BCFVG4RT/?tag=googshopfr-21&linkCode=df0&hvadid=627335705485&hvpos=&hvnetw=g&hvrand=9017061648460033442&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-1905220316044&th=1) | 14€ |
 | Component add to the mirror | [transparent LED display](https://www.lg.com/fr/business/affichage-led/lg-LAT240DT1) | make a quote |
 |  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 9€ |
