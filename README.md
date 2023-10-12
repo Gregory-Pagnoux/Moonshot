@@ -36,16 +36,25 @@ The project I am working on is a mirror who describes the main health functions 
       - [x] find slogan
       - [x] make the logo
   - September :
-    - [ ] make slide preparation
   - October :
-    - [ ] make Specifications
-      - [ ] Functional
-      - [ ] Technical
-      - [ ] Test Case
+    - [ ] present the project
+    - [ ] make QCDSE
+    - [ ] make DMAIC
   - November :
+    - [ ] make KPI's
+    - [ ] make Critical Path
+    - [ ] Specifications
+      - [ ] make Functional
   - December :
+    - [ ] present Specifications
+    - [ ] update Specifications
+      - [ ] correct Functional
+      - [ ] make Technical
 - 2024
   - January :
+    - [ ] present Specifications
+    - [ ] Specifications
+      - [ ] correct Technical
   - February :
   - March :
   - April :
