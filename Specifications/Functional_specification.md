@@ -87,8 +87,9 @@ source :
 
 ### 7. Development, environment and Requirements
 
-  - C
   - MacOS on development
+  - Visual Studio Code
+  - C or C#
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

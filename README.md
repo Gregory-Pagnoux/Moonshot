@@ -25,6 +25,9 @@ The project I am working on is a mirror who describes the main health functions 
 05/18/2023 : [Research document](mirror-health_research.md)
 08/10/2023 : [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
 <img alt="poster" src="/img/poster.png" width="350">
+10//2023 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
+11//2023 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
+11//2023 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -32,8 +35,10 @@ The project I am working on is a mirror who describes the main health functions 
 <summary>Retro Planning</summary>
 
 - 2023
-  - March :
+  - January :
     - [x] find moonshot project
+  - February :
+  - March :
   - April :
     - [x] make product document
       - [x] describe the product
@@ -43,6 +48,8 @@ The project I am working on is a mirror who describes the main health functions 
       - [x] describe each options
       - [x] find a competitor
       - [x] find people concerned by the product
+  - June :
+  - July :
   - August :
     - [x] conduct a field survey
     - [x] define the language
@@ -56,10 +63,9 @@ The project I am working on is a mirror who describes the main health functions 
   - October :
     - [ ] present the project
     - [ ] make QCDSE
-    - [ ] make DMAIC
   - November :
-    - [ ] make KPI's
     - [ ] make Critical Path
+    - [ ] make KPI's
     - [ ] Specifications
       - [ ] make Functional
   - December :
@@ -77,6 +83,12 @@ The project I am working on is a mirror who describes the main health functions 
   - April :
   - May :
   - June :
+  - July :
+  - August :
+  - September :
+  - October :
+  - November :
+  - December :
 
 </details>
 
