@@ -1,16 +1,22 @@
 # Moonshot Project
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### Description
 
 The Moonshot Project is a personnal project which is to be achieved in 5 years in order to put into practice what we have learned during the years spent at ALGOSUP.
 
 The project I am working on is a mirror who describes the main health functions such as your pulse rate and fever.
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### Contributor(s)
 
 <img alt="grégory pagnoux" src="https://avatars.githubusercontent.com/u/114397869?s=400&v=4" width="150">
 
 #### [**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Documents links / plan
 
@@ -20,7 +26,7 @@ The project I am working on is a mirror who describes the main health functions 
 08/10/2023 : [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
 <img alt="poster" src="/img/poster.png" width="350">
 
-<br>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
 <summary>Retro Planning</summary>
@@ -73,3 +79,5 @@ The project I am working on is a mirror who describes the main health functions 
   - June :
 
 </details>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
