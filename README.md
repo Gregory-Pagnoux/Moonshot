@@ -24,8 +24,9 @@ The project I am working on is a mirror who describes the main health functions 
 04/17/2023 : [Presentation of the mirror health](mirror-health_product.md) <br>
 05/18/2023 : [Research document](mirror-health_research.md) <br>
 08/10/2023 : [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
-<img alt="poster" src="/img/poster.png" width="350"> <br>
-10//2023 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing) <br>
+<img alt="poster" src="/img/poster.png" width="350">
+*poster to share field survey to the public* <br>
+11//2023 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing) <br>
 11//2023 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing) <br>
 11//2023 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing) <br>
 
@@ -61,9 +62,10 @@ The project I am working on is a mirror who describes the main health functions 
       - [x] make the logo
   - September :
   - October :
+    - [x] research data law
+  - November :
     - [ ] present the project
     - [ ] make QCDSE
-  - November :
     - [ ] make Critical Path
     - [ ] make KPI's
     - [ ] Specifications
