@@ -20,15 +20,24 @@ The project I am working on is a mirror who describes the main health functions 
 
 ### Documents links / plan
 
-01/01/2023 : [Idea of Moonshot Project](moonshot_project.md) <br>
-04/17/2023 : [Presentation of the mirror health](mirror-health_product.md) <br>
-05/18/2023 : [Research document](mirror-health_research.md) <br>
-08/10/2023 : [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
+01/01/2023 : [Idea of Moonshot Project](moonshot_project.md) 
+
+17/04/2023 : [Presentation of the mirror health](mirror-health_product.md)
+
+18/05/2023 : [Research document](mirror-health_research.md)
+
+10/08/2023 : share [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
 <img alt="poster" src="/img/poster.png" width="350">
-*poster to share field survey to the public* <br>
-11//2023 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing) <br>
-11//2023 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing) <br>
-11//2023 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing) <br>
+*poster to share field survey to the public*
+
+22/01/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+
+//2024 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
+
+//2024 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
+
+//2024 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -64,22 +73,17 @@ The project I am working on is a mirror who describes the main health functions 
   - October :
     - [x] research data law
   - November :
-    - [ ] present the project
-    - [ ] make QCDSE
-    - [ ] make Critical Path
-    - [ ] make KPI's
+  - October :
+  - December :
     - [ ] Specifications
       - [ ] make Functional
-  - December :
-    - [ ] present Specifications
-    - [ ] update Specifications
-      - [ ] correct Functional
       - [ ] make Technical
 - 2024
   - January :
-    - [ ] present Specifications
+    - [ ] present the project
     - [ ] Specifications
-      - [ ] correct Technical
+      - [ ] make Functional
+      - [ ] make Technical
   - February :
   - March :
   - April :

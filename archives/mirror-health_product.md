@@ -36,7 +36,7 @@ The first selection of language is :
 | C# | - powerful and flexible <br> - used for diverse software and applications, develop whatever you want <br> - .NET library, access to a large repertoire of features | - difficult to learn <br> - no cross-platform capability | 60% |
 | PHP | - easy to learn <br> - works well with databases, file systems, images, etc. | - some of the open source code is very old <br> - slower than its competitors <br> - its error handling is very poor. | 40% |
 
-The final choice was the C# or C.
+The final choice was the C language.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
