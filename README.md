@@ -44,6 +44,8 @@ The project I am working on is a mirror who describes the main health functions 
 <details>
 <summary>Retro Planning</summary>
 
+[Retro Planning](https://www.preceden.com/timelines/1067302-moonshot-retro-planning)
+
 - 2023
   - January :
     - [x] find moonshot project
@@ -75,19 +77,23 @@ The project I am working on is a mirror who describes the main health functions 
   - November :
   - October :
   - December :
-    - [ ] Specifications
-      - [ ] make Functional
-      - [ ] make Technical
 - 2024
   - January :
-    - [ ] present the project
+  - February :
     - [ ] Specifications
       - [ ] make Functional
-      - [ ] make Technical
-  - February :
   - March :
+    - [ ] Specifications
+      - [ ] finish Functional
+      - [ ] start Technical
   - April :
+    - [ ] Specifications
+      - [ ] Functional
+      - [ ] make Technical
   - May :
+    - [ ] Specifications
+      - [ ] Functional
+      - [ ] finish Technical
   - June :
   - July :
   - August :
