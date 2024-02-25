@@ -87,7 +87,8 @@ The project I am working on is a mirror who describes the main health functions 
   - January :
   - February :
     - [ ] Specifications
-      - [ ] make Functional
+      - [x] make Functional
+      - [ ] Technical
   - March :
     - [ ] Specifications
       - [ ] finish Functional
@@ -109,5 +110,3 @@ The project I am working on is a mirror who describes the main health functions 
   - December :
 
 </details>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
