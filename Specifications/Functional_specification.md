@@ -9,24 +9,27 @@
     - [I. Document](#i-document)
       - [A. Information](#a-information)
       - [B. History](#b-history)
-    - [III. Project Overview](#iii-project-overview)
-    - [IV. Assumptions and Constraints](#iv-assumptions-and-constraints)
-    - [V. Functional Requierements](#v-functional-requierements)
-      - [A. First version](#a-first-version)
-      - [B. Second version](#b-second-version)
-    - [VI. Functional Analysis](#vi-functional-analysis)
-    - [VII. Use Case Analysis](#vii-use-case-analysis)
-    - [VIII. Personas and Scenario](#viii-personas-and-scenario)
-      - [A.](#a)
-      - [B.](#b)
-      - [C.](#c)
-    - [IX. Non-functional Requierements](#ix-non-functional-requierements)
-      - [A. cost](#a-cost)
-      - [B. Ressources](#b-ressources)
-      - [C. Security](#c-security)
-    - [X. What will happen for the mirror](#x-what-will-happen-for-the-mirror)
-        - [A. Today](#a-today)
-        - [B. Tomorrow](#b-tomorrow)
+    - [II. Project Overview](#ii-project-overview)
+      - [A. Purpose](#a-purpose)
+      - [B. What will happen for the mirror](#b-what-will-happen-for-the-mirror)
+        - [1. Today](#1-today)
+        - [2. Tomorrow](#2-tomorrow)
+    - [III. Product](#iii-product)
+      - [A. System Purpose](#a-system-purpose)
+      - [B. Personas and Scenario](#b-personas-and-scenario)
+        - [1.](#1)
+        - [2.](#2)
+        - [3.](#3)
+      - [C. Assumptions and Constraints](#c-assumptions-and-constraints)
+      - [D. Functional Requierements](#d-functional-requierements)
+        - [1. First version](#1-first-version)
+        - [2. Second version](#2-second-version)
+      - [E. Functional Analysis](#e-functional-analysis)
+      - [F. Use Case Analysis](#f-use-case-analysis)
+      - [G. Non-functional Requierements](#g-non-functional-requierements)
+        - [1. cost](#1-cost)
+        - [2. Ressources](#2-ressources)
+        - [3. Security](#3-security)
     - [Glossary](#glossary)
 
 </details>
@@ -40,28 +43,111 @@
 | Document ID | Document # 01 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
-| Issue date | 20/01/2024 |
-| Last Issue Date | 21/01/2023 |
-| Document Name | Functional-Specification|
+| Issue date | 09/03/2024 |
+| Document Name | Functional Specification|
 
 #### B. History
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01|Grégory PAGNOUX| 20/01/2024 | Initial Release (V.01) |
+|01|Grégory PAGNOUX| 20/01/2024 | Initial Release (V.01.1) |
+|02|Grégory PAGNOUX| 25/02/2024 | document improvement (V.01.2) |
 
-### III. Project Overview
+### II. Project Overview
 
-![Phoenix](/img/logo.jpg)
+<center>
+
+![Pheonix](/img/logo.png)
+
+</center>
+
+#### A. Purpose
 
 Phoenix is a healthy mirror who allows to the customer to control his temperature with a thermometer laser[^1], pulse thanks to BioActive sensor[^2], diabetes with a glucose meter[^3], and if he is alcoholic with a breathalyzer[^4].
 With your Smartphone you have the possibility to track your datas
 
-In my family, we are the high risk type when it comes to cancer and disease like many other people. I once watched the movie "Seven Sisters" and saw the mirror that described every flaw in their face.
+In my family, we are the high risk type when it comes to cancer and disease like many other people. I once watched the movie "Seven Sisters" by Tommy Wirkola and saw the mirror that described every flaw in their face.
 So, I decided to inspire me of this movie and of this idea, to make it a reaality. allows to people to take care of themselves in front of their mirror.
 Everyone have a mirror at home.
 
-### IV. Assumptions and Constraints
+#### B. What will happen for the mirror
+
+##### 1. Today
+
+In 2019, 463 million people worldwide had diabetes, including 4.2 million French, according to the French Ministry of Health. with a tab, you can control your rate.
+30% of road accidents last year were caused by alcohol. One breath on the mirror and you'll know whether you can hit the road or not.
+Pulse rate is an indicator of potential heart problems, so it's important to monitor it regularly.
+Illnesses such as influenza, bronchitis or gastroenteritis are usually discovered late, and appointments with doctors become complicated, whereas it would be enough to check one's temperature every day to take care of oneself as soon as possible.
+
+These are habits you can start with the connected healthly mirror, Phoenix.
+
+##### 2. Tomorrow
+
+By 2045, there will be 700 million diabetics worldwide and the number of accidents caused by alcohol has struggled to fall in recent years, this mirror should be of use to over 22 million French people.
+
+sources :
+- [French Ministry of Health](https://sante.gouv.fr/soins-et-maladies/maladies/article/diabete#:~:text=Les%20chiffres%20clefs%20du%20diabète,700%20millions%20d%27ici%202045.)
+- [road safety](https://www.securite-routiere.gouv.fr/dangers-de-la-route/lalcool-et-la-conduite#:~:text=Les%20accidents%20impliquant%20de%20l,pour%20les%20accidents%20sans%20alcool.)
+
+### III. Product
+
+![design](/img/design.png)
+
+#### A. System Purpose
+
+- **switched off**
+
+When the mirror is switched off, the user can use it for make-up, hair styling, etc. without any problem.
+
+To switch off the mirror, press the power button and the time will disappear.
+
+- **switched on**
+
+If the user wants to do more, he must press the power button to switch it on after plugging it in. The time is displayed on the mirror's screen and the three LEDs light up for 3 to 5 seconds to check operation.
+
+- **set time**
+
+The user presses the plus button for 3 seconds and the hours blink. The user can press 1 time to increase the hours by 1 and validate with the corresponding button, which lights up the green LED for 3 seconds. Now the minutes flash and the user can do the same thing, and when he validates, nothing else blinkes.
+
+- **breathalyzer**
+
+To use the breathalyzer, the user must press the first button to the left of the 4 option buttons (with the image of the bottle). The yellow light flashes when the user can blow on the sensor for at least 5 seconds.
+The green light flashes when the alcohol level is within the limit, and the red light when the level is over the limit.
+
+- **pulse**
+
+To use the BioActive sensor, the user must press the second of the 4 option buttons (with the image of the oscillogram). The yellow light flashes when the user can press the sensor again for at least 5 seconds.
+The pulse value is displayed on the mirror's screen.
+
+- **glucose meter**
+
+To use the glucose meter, the user must press the third of the four option buttons (with the image of the drop). The yellow light flashes when the user can perform a blood glucose test.
+The glucose level is displayed on the mirror screen.
+
+- **thermometer**
+
+To use the thermometer, the user must press the last button to the right of the 4 option buttons (with the celsius image). The yellow light flashes when the user stands in front of the mirror for at least 5 seconds.
+The temperature is displayed on the mirror screen.
+
+- **connect phone**
+
+
+
+#### B. Personas and Scenario
+
+##### 1. 
+
+![](/img/)
+
+##### 2. 
+
+![](/img/)
+
+##### 3. 
+
+![](/img/)
+
+#### C. Assumptions and Constraints
 
 **hygiene**
 We need to pay close attention to the hygiene aspect of the product, as the glucose meter and breathalyzer require the deposition of particles that can dirty the mirror.
@@ -81,31 +167,35 @@ source :
  - [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
  - [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
 
-### V. Functional Requierements
+#### D. Functional Requierements
 
-#### A. First version
+##### 1. First version
 - take temperature
 - take pulse
 - print value on the mirror
 - respect for hygiene
 - user-friendly
 
-#### B. Second version
+##### 2. Second version
 - take glucose level
 - take alcohol level
 - lights
 - must be connected
 - more aesthetics
 
-### VI. Functional Analysis
+#### E. Functional Analysis
 
-- switch on :
+- switched on :
 
 ![functional analysis, switch on](/img/Screenshot%202024-01-21%20at%2016.41.35.png)
 
-- switch off :
+- switched off :
 
 ![functional analysis, switch off](/img/)
+
+- set time :
+
+![functional analysis, set time](/img/)
 
 - take temperature :
 
@@ -127,7 +217,7 @@ source :
 
 ![functional analysis, connection](/img/)
 
-### VII. Use Case Analysis
+#### F. Use Case Analysis
 
 | Use Case Number | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Post-Conditions | Exit Criteria | Notes & Issues |
 |---|---|---|---|---|---|---|---|---|
@@ -135,23 +225,9 @@ source :
 | 2 | Navigating the Maze |The player's interaction with the game environment as they navigate the Maze. | Player | Game started, Pac-Man is alive. | -The player uses the joystick or keyboard arrows to move Pac-Man.<br>-The system checks for collisions with walls, ghosts, or dots.<br>-The game updates the Maze display in real-time based on the player's input. | Pac-Man moves as directed by player inputs. | Pac-Man hits a wall, is caught by a ghost, or level is completed. | - |
 | 3 | Finishing a Level | Completing all objectives of a level. | Player | All pellets in the level are eaten by Pac-Man. | -Pac-Man eats the last pellet.<br>-Sound indicating level completion.<br>-Load next level. | New level starts with increased difficulty. | Transition to next level | - |
 
-### VIII. Personas and Scenario
+#### G. Non-functional Requierements
 
-#### A. 
-
-![](/img/)
-
-#### B. 
-
-![](/img/)
-
-#### C. 
-
-![](/img/)
-
-### IX. Non-functional Requierements
-
-#### A. cost
+##### 1. cost
 
 **Materials**
 
@@ -174,42 +250,26 @@ source :
 
 **Energy**
 
-- electricity : to be defined
+- electricity : quantity must to be defined
+  - off :
+  - on :
 
-**Time**
+**Time conception**
 
 - to be defined
 
-#### B. Ressources
+##### 2. Ressources
 
   - MacOS on development
   - Visual Studio Code
   - C language
+  - componant to be defined
 
-#### C. Security
+##### 3. Security
 
 - respect RGPD and data saving law
 - solid product
 - moisture-resistant
-
-### X. What will happen for the mirror
-
-##### A. Today
-
-In 2019, 463 million people worldwide had diabetes, including 4.2 million French, according to the French Ministry of Health. with a tab, you can control your rate.
-30% of road accidents last year were caused by alcohol. One breath on the mirror and you'll know whether you can hit the road or not.
-Pulse rate is an indicator of potential heart problems, so it's important to monitor it regularly.
-Illnesses such as influenza, bronchitis or gastroenteritis are usually discovered late, and appointments with doctors become complicated, whereas it would be enough to check one's temperature every day to take care of oneself as soon as possible.
-
-These are habits you can start with the connected healthly mirror, Phoenix.
-
-##### B. Tomorrow
-
-By 2045, there will be 700 million diabetics worldwide and the number of accidents caused by alcohol has struggled to fall in recent years, this mirror should be of use to over 22 million French people.
-
-sources :
-- [French Ministry of Health](https://sante.gouv.fr/soins-et-maladies/maladies/article/diabete#:~:text=Les%20chiffres%20clefs%20du%20diabète,700%20millions%20d%27ici%202045.)
-- [road safety](https://www.securite-routiere.gouv.fr/dangers-de-la-route/lalcool-et-la-conduite#:~:text=Les%20accidents%20impliquant%20de%20l,pour%20les%20accidents%20sans%20alcool.)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

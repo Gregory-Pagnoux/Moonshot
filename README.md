@@ -20,17 +20,23 @@ The project I am working on is a mirror who describes the main health functions 
 
 ### Documents links / plan
 
-01/01/2023 : [Idea of Moonshot Project](moonshot_project.md) 
+01/01/2023 : [Idea of Moonshot Project](/archives/moonshot_project.md) 
 
-17/04/2023 : [Presentation of the mirror health](mirror-health_product.md)
+17/04/2023 : [Presentation of the mirror health](/archives/mirror-health_product.md)
 
-18/05/2023 : [Research document](mirror-health_research.md)
+18/05/2023 : [Research document](/archives/mirror-health_research.md)
 
 10/08/2023 : share [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
 <img alt="poster" src="/img/poster.png" width="350">
 *poster to share field survey to the public*
 
+10/08/2024 : [Financial plan](/archives/mirror-health_financial-plan.md)
+
+20/01/2024 : [Functional Specification](/Specifications/Functional_specification.md)
+
 22/01/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+
+//2024 : [Technical Specifications](/Specifications/Technical_Specifications.md)
 
 //2024 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
 
