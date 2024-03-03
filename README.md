@@ -88,7 +88,7 @@ The project I am working on is a mirror who describes the main health functions 
   - February :
     - [ ] Specifications
       - [x] make Functional
-      - [ ] Technical
+      - [ ] (Technical)
   - March :
     - [ ] Specifications
       - [ ] finish Functional

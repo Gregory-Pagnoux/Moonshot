@@ -16,17 +16,22 @@
         - [2. Tomorrow](#2-tomorrow)
     - [III. Product](#iii-product)
       - [A. System Purpose](#a-system-purpose)
-      - [B. Personas and Scenario](#b-personas-and-scenario)
-        - [1.](#1)
-        - [2.](#2)
-        - [3.](#3)
-      - [C. Assumptions and Constraints](#c-assumptions-and-constraints)
-      - [D. Functional Requierements](#d-functional-requierements)
+        - [1. Mirror](#1-mirror)
+        - [2. Application](#2-application)
+      - [C. Personas and Scenarios](#c-personas-and-scenarios)
+        - [1. Sarah](#1-sarah)
+        - [2. Mickael](#2-mickael)
+        - [3. Emily](#3-emily)
+      - [D. Assumptions and Constraints](#d-assumptions-and-constraints)
+      - [E. Functional Requierements](#e-functional-requierements)
         - [1. First version](#1-first-version)
         - [2. Second version](#2-second-version)
-      - [E. Functional Analysis](#e-functional-analysis)
-      - [F. Use Case Analysis](#f-use-case-analysis)
-      - [G. Non-functional Requierements](#g-non-functional-requierements)
+        - [3. Futures versions](#3-futures-versions)
+      - [F. Functional Analysis](#f-functional-analysis)
+        - [1. Mirror](#1-mirror-1)
+        - [2. Application](#2-application-1)
+      - [G. Use Case Analysis](#g-use-case-analysis)
+      - [H. Non-functional Requierements](#h-non-functional-requierements)
         - [1. cost](#1-cost)
         - [2. Ressources](#2-ressources)
         - [3. Security](#3-security)
@@ -43,7 +48,7 @@
 | Document ID | Document # 01 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
-| Issue date | 09/03/2024 |
+| Issue date | 10/03/2024 |
 | Document Name | Functional Specification|
 
 #### B. History
@@ -51,7 +56,8 @@
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
 |01|Grégory PAGNOUX| 20/01/2024 | Initial Release (V.01.1) |
-|02|Grégory PAGNOUX| 25/02/2024 | document improvement (V.01.2) |
+|02|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) (V.01.2) |
+|03|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, personas and scenarios) (V.01.3) |
 
 ### II. Project Overview
 
@@ -64,7 +70,7 @@
 #### A. Purpose
 
 Phoenix is a healthy mirror who allows to the customer to control his temperature with a thermometer laser[^1], pulse thanks to BioActive sensor[^2], diabetes with a glucose meter[^3], and if he is alcoholic with a breathalyzer[^4].
-With your Smartphone you have the possibility to track your datas
+With your Smartphone you have the possibility to track your datas.
 
 In my family, we are the high risk type when it comes to cancer and disease like many other people. I once watched the movie "Seven Sisters" by Tommy Wirkola and saw the mirror that described every flaw in their face.
 So, I decided to inspire me of this movie and of this idea, to make it a reaality. allows to people to take care of themselves in front of their mirror.
@@ -95,6 +101,8 @@ sources :
 
 #### A. System Purpose
 
+##### 1. Mirror
+
 - **switched off**
 
 When the mirror is switched off, the user can use it for make-up, hair styling, etc. without any problem.
@@ -107,7 +115,7 @@ If the user wants to do more, he must press the power button to switch it on aft
 
 - **set time**
 
-The user presses the plus button for 3 seconds and the hours blink. The user can press 1 time to increase the hours by 1 and validate with the corresponding button, which lights up the green LED for 3 seconds. Now the minutes flash and the user can do the same thing, and when he validates, nothing else blinkes.
+The user presses the plus button for 3 seconds and the hours blink. The user can press 1 time to increase the hours by 1 and validate with the corresponding button, which lights up the green light for 3 seconds. Now the minutes flash and the user can do the same thing, and when he validates, nothing else blinkes.
 
 - **breathalyzer**
 
@@ -131,23 +139,69 @@ The temperature is displayed on the mirror screen.
 
 - **connect phone**
 
+The user presses the validation button for 3 seconds and the yellow-green light flashes for 3 seconds. The user can connect their phone to the mirror. When the connection is established, the green lights up, otherwise the red lights up for 3 seconds.
 
+##### 2. Application
 
-#### B. Personas and Scenario
+**installation**
 
-##### 1. 
+to be defined
 
-![](/img/)
+**opening**
 
-##### 2. 
+to be defined
 
-![](/img/)
+#### C. Personas and Scenarios
 
-##### 3. 
+##### 1. Sarah
 
-![](/img/)
+The working mother who cares about her children's health
 
-#### C. Assumptions and Constraints
+![Sarah's persona](/img/)
+
+Age: 35
+Occupation: Working mother
+Lifestyle: Sarah leads a busy lifestyle balancing her career and family responsibilities. She juggles multiple tasks throughout the day, from managing work deadlines to taking care of her two children's needs.
+Health Concerns: Sarah is deeply concerned about her family's health, especially given their history of cancer and other diseases. She prioritizes her two children's well-being and is always looking for ways to ensure they stay healthy.
+Motivations: Sarah is motivated by her desire to keep her family healthy and safe. She is constantly seeking out innovative solutions that can help her monitor and manage her children's health more effectively while fitting into their busy schedules.
+Goals: Sarah's primary goal is to find practical tools and resources that can support her in maintaining her family's health and well-being. She values convenience and ease of use in any health-related products or services she adopts.
+
+Scenario:
+Sarah is a 35-year-old working mother with a hectic schedule. She's always concerned about her family's health, especially since they have a history of cancer and other diseases. Sarah recently stumbled upon Phoenix, the healthy mirror, and was intrigued by its features. She envisions using it to monitor her two children's health more efficiently while seamlessly integrating it into their daily routines. With Phoenix, Sarah can easily track their temperature, pulse, and glucose levels, ensuring she stays on top of their health despite her busy lifestyle. Plus, the breathalyzer feature gives her peace of mind regarding alcohol consumption. Sarah appreciates the convenience of accessing all this data through her smartphone, making it easier for her to keep track of everyone's health status.
+
+##### 2. Mickael
+
+The Fitness Enthusiast
+
+![Mickael's persona](/img/)
+
+Age: 28
+Occupation: Fitness enthusiast
+Lifestyle: Michael leads an active lifestyle focused on fitness and physical well-being. He enjoys participating in various sports and activities, constantly challenging himself to improve his performance and achieve his fitness goals.
+Health Concerns: Michael is primarily concerned with optimizing his health and fitness levels. He pays close attention to his diet, exercise routine, and overall lifestyle choices to ensure he stays in peak physical condition.
+Motivations: Michael is motivated by his passion for fitness and personal growth. He is always on the lookout for cutting-edge technologies and tools that can help him track his progress, identify areas for improvement, and achieve his fitness objectives more efficiently.
+Goals: Michael's main goal is to continuously improve his health and fitness levels. He seeks out products and services that offer advanced features and capabilities, enabling him to monitor various health metrics and make data-driven decisions to enhance his performance.
+
+Scenario:
+Michael is a 28-year-old fitness enthusiast who's always looking for ways to optimize his health and performance. He came across Phoenix while researching innovative health gadgets and immediately saw its potential in his daily routine. With Phoenix, Michael can monitor various health metrics like temperature, pulse, and glucose levels, helping him fine-tune his fitness regimen for optimal results. The breathalyzer feature is particularly useful for Michael, as he occasionally enjoys a few drinks with friends but wants to ensure he maintains a healthy balance. Being able to track all this data on his smartphone motivates Michael to stay consistent with his health goals and allows him to make informed decisions about his lifestyle choices.
+
+##### 3. Emily
+
+The Health-Conscious Senior
+
+![Emily's persona](/img/)
+
+Age: 65
+Occupation: Retiree
+Lifestyle: Emily leads a retired lifestyle focused on maintaining her health and well-being. She enjoys spending time with her family, pursuing hobbies, and staying active in her community.
+Health Concerns: Emily is concerned about managing her health as she ages, particularly given her family history of diabetes and other chronic conditions. She prioritizes preventive care and self-management strategies to stay healthy and independent for as long as possible.
+Motivations: Emily is motivated by her desire to lead a fulfilling and active life in her senior years. She values products and services that can help her monitor her health status, detect any potential issues early on, and empower her to take proactive steps to maintain her well-being.
+Goals: Emily's primary goal is to stay healthy and active as she ages. She seeks out tools and resources that offer practical solutions for managing her health, allowing her to enjoy a high quality of life and continue engaging in the activities she loves.
+
+Scenario:
+Emily is a 65-year-old retiree who takes her health very seriously. She's always been proactive about managing her health, especially since her family has a history of diabetes and other chronic conditions. When Emily discovered Phoenix, she was impressed by its innovative features and saw it as a valuable tool in her health maintenance routine. With Phoenix, Emily can easily monitor her temperature, pulse, and glucose levels from the comfort of her own home, giving her greater peace of mind about her health status. The breathalyzer feature also appeals to Emily, as it allows her to keep track of her alcohol intake, ensuring she stays within safe limits. Emily appreciates the simplicity of accessing all her health data on her smartphone, making it easier for her to share important information with her healthcare provider during check-ups.
+
+#### D. Assumptions and Constraints
 
 **hygiene**
 We need to pay close attention to the hygiene aspect of the product, as the glucose meter and breathalyzer require the deposition of particles that can dirty the mirror.
@@ -167,7 +221,7 @@ source :
  - [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
  - [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
 
-#### D. Functional Requierements
+#### E. Functional Requierements
 
 ##### 1. First version
 - take temperature
@@ -177,47 +231,57 @@ source :
 - user-friendly
 
 ##### 2. Second version
+- lights
+- phone connection
+
+##### 3. Futures versions
 - take glucose level
 - take alcohol level
-- lights
-- must be connected
 - more aesthetics
 
-#### E. Functional Analysis
+#### F. Functional Analysis
 
-- switched on :
-
-![functional analysis, switch on](/img/Screenshot%202024-01-21%20at%2016.41.35.png)
+##### 1. Mirror
 
 - switched off :
 
-![functional analysis, switch off](/img/)
+![functional analysis, mirror, switch off](/img/Screenshot%202024-01-21%20at%2016.41.35.png)
+
+- switched on :
+
+![functional analysis, mirror, switch on](/img/)
 
 - set time :
 
-![functional analysis, set time](/img/)
+![functional analysis, mirror, set time](/img/)
 
 - take temperature :
 
-![functional analysis, temperature](/img/)
+![functional analysis, mirror, temperature](/img/)
 
 - take pulse :
 
-![functional analysis, pulse](/img/)
+![functional analysis, mirror, pulse](/img/)
 
 - take glucose level :
 
-![functional analysis, glucose](/img/)
+![functional analysis, mirror, glucose](/img/)
 
 - take alcohol level :
 
-![functional analysis, alcohol](/img/)
+![functional analysis, mirror, alcohol](/img/)
 
 - smartphone connection :
 
-![functional analysis, connection](/img/)
+![functional analysis, mirror, connection](/img/)
 
-#### F. Use Case Analysis
+##### 2. Application
+
+- opening
+
+![functional analysis, application, opening](/img/)
+
+#### G. Use Case Analysis
 
 | Use Case Number | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Post-Conditions | Exit Criteria | Notes & Issues |
 |---|---|---|---|---|---|---|---|---|
@@ -225,28 +289,29 @@ source :
 | 2 | Navigating the Maze |The player's interaction with the game environment as they navigate the Maze. | Player | Game started, Pac-Man is alive. | -The player uses the joystick or keyboard arrows to move Pac-Man.<br>-The system checks for collisions with walls, ghosts, or dots.<br>-The game updates the Maze display in real-time based on the player's input. | Pac-Man moves as directed by player inputs. | Pac-Man hits a wall, is caught by a ghost, or level is completed. | - |
 | 3 | Finishing a Level | Completing all objectives of a level. | Player | All pellets in the level are eaten by Pac-Man. | -Pac-Man eats the last pellet.<br>-Sound indicating level completion.<br>-Load next level. | New level starts with increased difficulty. | Transition to next level | - |
 
-#### G. Non-functional Requierements
+#### H. Non-functional Requierements
 
 ##### 1. cost
 
 **Materials**
 
-| WHICH PART | MATERIAL | PRICE |
-| :-: | :-: | :-: |
-| To built the mirror | glass (large photo frame) | 10€ |
-|  | [self-adhesif mirror](https://www.amazon.fr/Lifemaison-Autocollant-Adhérence-Décoratif-50x200cm/dp/B0BCFVG4RT/ref=asc_df_B0BCFVG4RT/?tag=googshopfr-21&linkCode=df0&hvadid=627335705485&hvpos=&hvnetw=g&hvrand=9017061648460033442&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-1905220316044&th=1) | 14€ |
-| Component add to the mirror | [transparent LED display](https://www.lg.com/fr/business/affichage-led/lg-LAT240DT1) | make a quote |
-|  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 9€ |
-| Options | [thermometer gun](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32) | 30€ |
-|  | [BioActive sensor](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/) | 200€ |
-|  | [glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1) | 35€ |
-|  | [breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId) | 13€ |
-|  | application/site | depends on host |
-|  | [LED strip light](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099519895939&sku_id=17592230663628&_x_ns_sku_id=17592230663628&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20124197984&_x_ads_id=150623603962&_x_ads_creative_id=658287999075&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592230663628&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4-y7YSNwN-9XXHfLhr6x1omCjtnJqAAgWcHpiapEaLf3moRFBoCJgo&_x_ns_gbraid=0AAAAAo4mICGlLRY-zIEBBV60NLgRSSUm6&_x_ns_targetid=pla-2092819011972&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&adg_ctx=f-6465104f) | 5€ |
-| internal component | [electronic kit](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099524164587&sku_id=17592249789383&_x_ns_sku_id=17592249789383&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20819421092&_x_ads_id=153466930022&_x_ads_creative_id=682926604759&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592249789383&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4_VL5nWuA-uApyq7C26g1POuUhjQ-nZ5dxRduvSGjARFGgjZxoCf9A&_x_ns_gbraid=0AAAAAo4mICGV_-1u5yHHLnky4O24cGqQw&_x_ns_targetid=pla-2264719103480&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&adg_ctx=f-6465104f) | 17€ |
-|  | [electronic power supply](https://www.leroymerlin.fr/produits/electricite-et-domotique/tableau-electrique-et-disjoncteur/module-de-commande-de-signalisation-et-de-protection/alimentation-electrique-mince-ip67-36w-transformateur-etanche-de-230v-a-12v-dc-3a-bandes-led-lampes-cameras-90320990.html?Megaboost) | 14€ |
-|  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 20€ |
-| total |  | minimum : 367€ |
+| WHICH PART | MATERIAL | PRICE | V0.1 | V0.2 |
+| :-: | :-: | :-: | :-: | :-: |
+| To built the mirror | glass (large photo frame) | 10€ | Yes | Yes |
+|  | [self-adhesif mirror](https://www.amazon.fr/Lifemaison-Autocollant-Adhérence-Décoratif-50x200cm/dp/B0BCFVG4RT/ref=asc_df_B0BCFVG4RT/?tag=googshopfr-21&linkCode=df0&hvadid=627335705485&hvpos=&hvnetw=g&hvrand=9017061648460033442&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-1905220316044&th=1) | 14€ | Yes | Yes |
+| Component add to the mirror | [transparent LED display](https://www.lg.com/fr/business/affichage-led/lg-LAT240DT1) | make a quote | Yes | Yes |
+|  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 9€ | Yes | Yes |
+|  | [green, yellow, red lights]() | to be defined | Yes | Yes |
+|  | [LED strip light](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099519895939&sku_id=17592230663628&_x_ns_sku_id=17592230663628&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20124197984&_x_ads_id=150623603962&_x_ads_creative_id=658287999075&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592230663628&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4-y7YSNwN-9XXHfLhr6x1omCjtnJqAAgWcHpiapEaLf3moRFBoCJgo&_x_ns_gbraid=0AAAAAo4mICGlLRY-zIEBBV60NLgRSSUm6&_x_ns_targetid=pla-2092819011972&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&adg_ctx=f-6465104f) | 5€ | No | Yes |
+| Options | [thermometer gun](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32) | 30€ | Yes | Yes |
+|  | [BioActive sensor](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/) | 200€ | Yes | Yes |
+|  | [glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1) | 35€ | No | to be defined |
+|  | [breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId) | 13€ | No | to be defined |
+|  | application | depends on host/online cost | to be defined | Yes |
+| internal component | [electronic kit](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099524164587&sku_id=17592249789383&_x_ns_sku_id=17592249789383&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20819421092&_x_ads_id=153466930022&_x_ads_creative_id=682926604759&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592249789383&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4_VL5nWuA-uApyq7C26g1POuUhjQ-nZ5dxRduvSGjARFGgjZxoCf9A&_x_ns_gbraid=0AAAAAo4mICGV_-1u5yHHLnky4O24cGqQw&_x_ns_targetid=pla-2264719103480&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&adg_ctx=f-6465104f) | 17€ | Yes | Yes |
+|  | [electronic power supply](https://www.leroymerlin.fr/produits/electricite-et-domotique/tableau-electrique-et-disjoncteur/module-de-commande-de-signalisation-et-de-protection/alimentation-electrique-mince-ip67-36w-transformateur-etanche-de-230v-a-12v-dc-3a-bandes-led-lampes-cameras-90320990.html?Megaboost) | 14€ | Yes | Yes |
+|  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 20€ | Yes | Yes |
+| total |  |  | 314€ | 367€ |
 
 **Energy**
 
