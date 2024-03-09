@@ -20,7 +20,7 @@
         - [2. Application](#2-application)
       - [C. Personas and Scenarios](#c-personas-and-scenarios)
         - [1. Sarah](#1-sarah)
-        - [2. Mickael](#2-mickael)
+        - [2. Michael](#2-michael)
         - [3. Emily](#3-emily)
       - [D. Assumptions and Constraints](#d-assumptions-and-constraints)
       - [E. Functional Requierements](#e-functional-requierements)
@@ -33,7 +33,7 @@
       - [G. Use Case Analysis](#g-use-case-analysis)
       - [H. Non-functional Requierements](#h-non-functional-requierements)
         - [1. cost](#1-cost)
-        - [2. Ressources](#2-ressources)
+        - [2. Environment](#2-environment)
         - [3. Security](#3-security)
     - [Glossary](#glossary)
 
@@ -55,9 +55,10 @@
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01|Grégory PAGNOUX| 20/01/2024 | Initial Release (V.01.1) |
-|02|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) (V.01.2) |
-|03|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, personas and scenarios) (V.01.3) |
+|01.1|Grégory PAGNOUX| 20/01/2024 | Initial Release  |
+|01.2|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) |
+|01.3|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
+|01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis, use case analysis) |
 
 ### II. Project Overview
 
@@ -107,11 +108,11 @@ sources :
 
 When the mirror is switched off, the user can use it for make-up, hair styling, etc. without any problem.
 
-To switch off the mirror, press the power button and the time will disappear.
+To switch off the mirror, press the power button and the main light comes off, the time is disappear on the mirror's screen and the three LEDs light up for 3 seconds to prevent the customer.
 
 - **switched on**
 
-If the user wants to do more, he must press the power button to switch it on after plugging it in. The time is displayed on the mirror's screen and the three LEDs light up for 3 to 5 seconds to check operation.
+If the user wants to do more, he must press the power button to switch it on after plugging it in. The main light comes on, the time is displayed on the mirror's screen and the three LEDs light up for 3 seconds to check operation.
 
 - **set time**
 
@@ -157,49 +158,38 @@ to be defined
 
 The working mother who cares about her children's health
 
-![Sarah's persona](/img/)
+![Sarah's persona](/img/Sarah.png)
 
-Age: 35
-Occupation: Working mother
-Lifestyle: Sarah leads a busy lifestyle balancing her career and family responsibilities. She juggles multiple tasks throughout the day, from managing work deadlines to taking care of her two children's needs.
-Health Concerns: Sarah is deeply concerned about her family's health, especially given their history of cancer and other diseases. She prioritizes her two children's well-being and is always looking for ways to ensure they stay healthy.
-Motivations: Sarah is motivated by her desire to keep her family healthy and safe. She is constantly seeking out innovative solutions that can help her monitor and manage her children's health more effectively while fitting into their busy schedules.
-Goals: Sarah's primary goal is to find practical tools and resources that can support her in maintaining her family's health and well-being. She values convenience and ease of use in any health-related products or services she adopts.
+Sarah is a 35-year-old working mother with a hectic schedule. She's always concerned about her family's health, especially since they have a history of cancer and other diseases.
 
-Scenario:
-Sarah is a 35-year-old working mother with a hectic schedule. She's always concerned about her family's health, especially since they have a history of cancer and other diseases. Sarah recently stumbled upon Phoenix, the healthy mirror, and was intrigued by its features. She envisions using it to monitor her two children's health more efficiently while seamlessly integrating it into their daily routines. With Phoenix, Sarah can easily track their temperature, pulse, and glucose levels, ensuring she stays on top of their health despite her busy lifestyle. Plus, the breathalyzer feature gives her peace of mind regarding alcohol consumption. Sarah appreciates the convenience of accessing all this data through her smartphone, making it easier for her to keep track of everyone's health status.
+Sarah recently stumbled upon Phoenix, the healthy mirror, and was intrigued by its features. She envisions using it to monitor her two children's health more efficiently while seamlessly integrating it into their daily routines.
+With Phoenix, Sarah can easily track their temperature, pulse, and glucose levels, ensuring she stays on top of their health despite her busy lifestyle. Plus, the breathalyzer feature gives her peace of mind regarding alcohol consumption.
 
-##### 2. Mickael
+Sarah appreciates the convenience of accessing all this data through her smartphone, making it easier for her to keep track of everyone's health status.
+
+##### 2. Michael
 
 The Fitness Enthusiast
 
-![Mickael's persona](/img/)
+![Michael's persona](/img/Michael.png)
 
-Age: 28
-Occupation: Fitness enthusiast
-Lifestyle: Michael leads an active lifestyle focused on fitness and physical well-being. He enjoys participating in various sports and activities, constantly challenging himself to improve his performance and achieve his fitness goals.
-Health Concerns: Michael is primarily concerned with optimizing his health and fitness levels. He pays close attention to his diet, exercise routine, and overall lifestyle choices to ensure he stays in peak physical condition.
-Motivations: Michael is motivated by his passion for fitness and personal growth. He is always on the lookout for cutting-edge technologies and tools that can help him track his progress, identify areas for improvement, and achieve his fitness objectives more efficiently.
-Goals: Michael's main goal is to continuously improve his health and fitness levels. He seeks out products and services that offer advanced features and capabilities, enabling him to monitor various health metrics and make data-driven decisions to enhance his performance.
+Michael is a 28-year-old fitness enthusiast who's always looking for ways to optimize his health and performance.
 
-Scenario:
-Michael is a 28-year-old fitness enthusiast who's always looking for ways to optimize his health and performance. He came across Phoenix while researching innovative health gadgets and immediately saw its potential in his daily routine. With Phoenix, Michael can monitor various health metrics like temperature, pulse, and glucose levels, helping him fine-tune his fitness regimen for optimal results. The breathalyzer feature is particularly useful for Michael, as he occasionally enjoys a few drinks with friends but wants to ensure he maintains a healthy balance. Being able to track all this data on his smartphone motivates Michael to stay consistent with his health goals and allows him to make informed decisions about his lifestyle choices.
+He came across Phoenix while researching innovative health gadgets and immediately saw its potential in his daily routine. With Phoenix, Michael can monitor various health metrics like temperature, pulse, and glucose levels, helping him fine-tune his fitness regimen for optimal results. The breathalyzer feature is particularly useful for Michael, as he occasionally enjoys a few drinks with friends but wants to ensure he maintains a healthy balance.
+
+Being able to track all this data on his smartphone motivates Michael to stay consistent with his health goals and allows him to make informed decisions about his lifestyle choices.
 
 ##### 3. Emily
 
 The Health-Conscious Senior
 
-![Emily's persona](/img/)
+![Emily's persona](/img/Emily.png)
 
-Age: 65
-Occupation: Retiree
-Lifestyle: Emily leads a retired lifestyle focused on maintaining her health and well-being. She enjoys spending time with her family, pursuing hobbies, and staying active in her community.
-Health Concerns: Emily is concerned about managing her health as she ages, particularly given her family history of diabetes and other chronic conditions. She prioritizes preventive care and self-management strategies to stay healthy and independent for as long as possible.
-Motivations: Emily is motivated by her desire to lead a fulfilling and active life in her senior years. She values products and services that can help her monitor her health status, detect any potential issues early on, and empower her to take proactive steps to maintain her well-being.
-Goals: Emily's primary goal is to stay healthy and active as she ages. She seeks out tools and resources that offer practical solutions for managing her health, allowing her to enjoy a high quality of life and continue engaging in the activities she loves.
+Emily is a 68-year-old retiree who takes her health very seriously. She's always been proactive about managing her health, especially since her family has a history of diabetes and other chronic conditions.
 
-Scenario:
-Emily is a 65-year-old retiree who takes her health very seriously. She's always been proactive about managing her health, especially since her family has a history of diabetes and other chronic conditions. When Emily discovered Phoenix, she was impressed by its innovative features and saw it as a valuable tool in her health maintenance routine. With Phoenix, Emily can easily monitor her temperature, pulse, and glucose levels from the comfort of her own home, giving her greater peace of mind about her health status. The breathalyzer feature also appeals to Emily, as it allows her to keep track of her alcohol intake, ensuring she stays within safe limits. Emily appreciates the simplicity of accessing all her health data on her smartphone, making it easier for her to share important information with her healthcare provider during check-ups.
+When Emily discovered Phoenix, she was impressed by its innovative features and saw it as a valuable tool in her health maintenance routine. With Phoenix, Emily can easily monitor her temperature, pulse, and glucose levels from the comfort of her own home, giving her greater peace of mind about her health status. The breathalyzer feature also appeals to Emily, as it allows her to keep track of her alcohol intake, ensuring she stays within safe limits.
+
+Emily appreciates the simplicity of accessing all her health data on her smartphone, making it easier for her to share important information with her healthcare provider during check-ups.
 
 #### D. Assumptions and Constraints
 
@@ -243,51 +233,21 @@ source :
 
 ##### 1. Mirror
 
-- switched off :
-
-![functional analysis, mirror, switch off](/img/Screenshot%202024-01-21%20at%2016.41.35.png)
-
-- switched on :
-
-![functional analysis, mirror, switch on](/img/)
-
-- set time :
-
-![functional analysis, mirror, set time](/img/)
-
-- take temperature :
-
-![functional analysis, mirror, temperature](/img/)
-
-- take pulse :
-
-![functional analysis, mirror, pulse](/img/)
-
-- take glucose level :
-
-![functional analysis, mirror, glucose](/img/)
-
-- take alcohol level :
-
-![functional analysis, mirror, alcohol](/img/)
-
-- smartphone connection :
-
-![functional analysis, mirror, connection](/img/)
+![functional analysis, mirror](/img/)
 
 ##### 2. Application
 
-- opening
-
-![functional analysis, application, opening](/img/)
+![functional analysis, application](/img/)
 
 #### G. Use Case Analysis
 
-| Use Case Number | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Post-Conditions | Exit Criteria | Notes & Issues |
-|---|---|---|---|---|---|---|---|---|
-| 1 | Start Game | A player starts a new game. | Player | The game is installed and launched. | -The Player press the start button.<br>-The game initialises and loads the first level. | The game is in a playable state with the player controlling Pac-Man. | Game is now playable. |- |
-| 2 | Navigating the Maze |The player's interaction with the game environment as they navigate the Maze. | Player | Game started, Pac-Man is alive. | -The player uses the joystick or keyboard arrows to move Pac-Man.<br>-The system checks for collisions with walls, ghosts, or dots.<br>-The game updates the Maze display in real-time based on the player's input. | Pac-Man moves as directed by player inputs. | Pac-Man hits a wall, is caught by a ghost, or level is completed. | - |
-| 3 | Finishing a Level | Completing all objectives of a level. | Player | All pellets in the level are eaten by Pac-Man. | -Pac-Man eats the last pellet.<br>-Sound indicating level completion.<br>-Load next level. | New level starts with increased difficulty. | Transition to next level | - |
+| ID | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Exit Criteria |
+|---|---|---|---|---|---|---|
+| 1 | switched on | the customer switched on the mirror | customer | - the mirror is plugged in<br>- the mirror switched off | - the customer press the power button<br>- the mirror turn on the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the time is displayed | all the lights came on, the mirror can be used by the customer |
+| 2 | switched off | the customer switched off the mirror | customer | the mirror is plugged in<br>- the mirror switched on | - the customer press the power button<br>- the mirror turn off the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the thime will disappear | all the lights came off, the mirror is switched off |
+| 3 |  |  |  |  |  |
+| 4 |  |  |  |  |  |
+| 5 |  |  |  |  |  |
 
 #### H. Non-functional Requierements
 
@@ -313,22 +273,15 @@ source :
 |  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 20€ | Yes | Yes |
 | total |  |  | 314€ | 367€ |
 
-**Energy**
-
-- electricity : quantity must to be defined
-  - off :
-  - on :
-
 **Time conception**
 
 - to be defined
 
-##### 2. Ressources
+##### 2. Environment
 
-  - MacOS on development
-  - Visual Studio Code
-  - C language
-  - componant to be defined
+- MacOS on development
+- Visual Studio Code
+- C language
 
 ##### 3. Security
 
