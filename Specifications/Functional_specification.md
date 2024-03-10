@@ -1,6 +1,6 @@
 # Functional Specification
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
 <summary>Table of content</summary>
@@ -39,7 +39,7 @@
 
 </details>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### I. Document
 
@@ -140,7 +140,7 @@ The temperature is displayed on the mirror screen.
 
 - **connect phone**
 
-The user presses the validation button for 3 seconds and the yellow-green light flashes for 3 seconds. The user can connect their phone to the mirror. When the connection is established, the green lights up, otherwise the red lights up for 3 seconds.
+The user presses the validation button for 3 seconds and the yellow light flashes for 10 seconds. The user can connect their phone to the mirror during this time. When the connection is established, the green light blink for 3 secondes, otherwise the red light blink for 3 seconds.
 
 ##### 2. Application
 
@@ -233,7 +233,7 @@ source :
 
 ##### 1. Mirror
 
-![functional analysis, mirror](/img/)
+![functional analysis, mirror](/img/mirror_functional_analysis.png)
 
 ##### 2. Application
 
@@ -244,7 +244,7 @@ source :
 | ID | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Exit Criteria |
 |---|---|---|---|---|---|---|
 | 1 | switched on | the customer switched on the mirror | customer | - the mirror is plugged in<br>- the mirror switched off | - the customer press the power button<br>- the mirror turn on the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the time is displayed | all the lights came on, the mirror can be used by the customer |
-| 2 | switched off | the customer switched off the mirror | customer | the mirror is plugged in<br>- the mirror switched on | - the customer press the power button<br>- the mirror turn off the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the thime will disappear | all the lights came off, the mirror is switched off |
+| 2 | switched off | the customer switched off the mirror | customer | the mirror is plugged in<br>- the mirror switched on | - the customer press the power button<br>- the mirror turn off the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the time will disappear | all the lights came off, the mirror is switched off |
 | 3 |  |  |  |  |  |
 | 4 |  |  |  |  |  |
 | 5 |  |  |  |  |  |
@@ -289,7 +289,7 @@ source :
 - solid product
 - moisture-resistant
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Glossary
 
