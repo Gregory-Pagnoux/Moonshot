@@ -1,6 +1,6 @@
 # Technical Specifications
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
 <summary>📖 Table of content</summary>
@@ -12,6 +12,8 @@
       - [C. Overview](#c-overview)
   - [II. Solution](#ii-solution)
       - [A. Descritpion](#a-descritpion)
+        - [1. Mirror](#1-mirror)
+        - [2. Application](#2-application)
       - [B. Software architecture](#b-software-architecture)
       - [C. Technical constraints](#c-technical-constraints)
         - [1. C coding convention](#1-c-coding-convention)
@@ -35,7 +37,7 @@
 
 </details>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### I. Document
 
@@ -68,7 +70,51 @@ With your Smartphone you have the possibility to track your datas.
 
 #### A. Descritpion
 
+![design](/img/design.png)
 
+##### 1. Mirror
+
+- **switched off**
+
+When the mirror is switched off, the user can use it for make-up, hair styling, etc. without any problem.
+
+To switch off the mirror, press the power button and the main light comes off, the time is disappear on the mirror's screen and the three LEDs light up for 3 seconds to prevent the customer.
+
+- **switched on**
+
+If the user wants to do more, he must press the power button to switch it on after plugging it in. The main light comes on, the time is displayed on the mirror's screen and the three LEDs light up for 3 seconds to check operation.
+
+- **set time**
+
+The user presses the plus button for 3 seconds and the hours blink. The user can press 1 time to increase the hours by 1 and validate with the corresponding button, which lights up the green light for 3 seconds. Now the minutes flash and the user can do the same thing, and when he validates, nothing else blinkes.
+
+- **breathalyzer**
+
+To use the breathalyzer, the user must press the first button to the left of the 4 option buttons (with the image of the bottle). The yellow light flashes when the user can blow on the sensor for at least 5 seconds.
+The green light flashes when the alcohol level is within the limit, and the red light when the level is over the limit.
+
+- **pulse**
+
+To use the BioActive sensor, the user must press the second of the 4 option buttons (with the image of the oscillogram). The yellow light flashes when the user can press the sensor again for at least 5 seconds.
+The pulse value is displayed on the mirror's screen.
+
+- **glucose meter**
+
+To use the glucose meter, the user must press the third of the four option buttons (with the image of the drop). The yellow light flashes when the user can perform a blood glucose test.
+The glucose level is displayed on the mirror screen.
+
+- **thermometer**
+
+To use the thermometer, the user must press the last button to the right of the 4 option buttons (with the celsius image). The yellow light flashes when the user stands in front of the mirror for at least 5 seconds.
+The temperature is displayed on the mirror screen.
+
+- **connect phone**
+
+The user presses the validation button for 3 seconds and the yellow light flashes for 10 seconds. The user can connect their phone to the mirror during this time. When the connection is established, the green light blink for 3 secondes, otherwise the red light blink for 3 seconds.
+
+##### 2. Application
+
+to be defined
 
 #### B. Software architecture
 
@@ -119,7 +165,7 @@ using System.Collections;
 using System.Threading.Tasks;
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 Inside the namespace KrugApp, we start by define a new class "Tank" accessible
 
@@ -133,7 +179,7 @@ namespace KrugApp
 }
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 **2. Wines.cs file**
 
@@ -143,7 +189,7 @@ Define every function/method/file we use that is external to the page.
 using System;
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 Inside the namespace KrugApp, we start by define a new class "Wine" accessible
 
@@ -157,7 +203,7 @@ namespace KrugApp
 }
 ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 #### E. Program architecture diagram
 
@@ -233,7 +279,7 @@ Weekly Reports: A consolidated report of the week's progress, challenges, and le
 The program is scored according to the following criteria :
 - All features are accessible
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Glossary
 

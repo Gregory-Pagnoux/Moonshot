@@ -3,7 +3,7 @@
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
-<summary>Table of content</summary>
+<summary>📖 Table of content</summary>
 
 - [Functional Specification](#functional-specification)
     - [I. Document](#i-document)
