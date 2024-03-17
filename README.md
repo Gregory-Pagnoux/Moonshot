@@ -55,8 +55,7 @@ The project I am working on is a mirror who describes the main health functions 
 - 2023
   - January :
     - [x] find moonshot project
-  - February :
-  - March :
+  - February - March :
   - April :
     - [x] make product document
       - [x] describe the product
@@ -80,33 +79,40 @@ The project I am working on is a mirror who describes the main health functions 
   - September :
   - October :
     - [x] research data law
-  - November :
-  - October :
-  - December :
+  - November - December:
 - 2024
-  - January :
-  - February :
+  - January - June :
     - [ ] Specifications
-      - [x] make Functional
-      - [ ] (Technical)
-  - March :
-    - [ ] Specifications
-      - [ ] finish Functional
-      - [ ] start Technical
-  - April :
-    - [ ] Specifications
-      - [ ] Functional
-      - [ ] make Technical
-  - May :
-    - [ ] Specifications
-      - [ ] Functional
-      - [ ] finish Technical
-  - June :
-  - July :
-  - August :
+      - [x] Functional
+      - [ ] Technical
+  - July - August :
   - September :
+    - [ ] Conception
   - October :
+    - [ ] Conception
   - November :
+    - [ ] Conception
   - December :
+    - [ ] Conception
+- 2025
+  - January
+    - [ ] Conception
+  - February
+    - [ ] Conception
+  - March
+    - [ ] Conception
+  - April
+    - [ ] Conception
+  - May
+    - [ ] Conception
+  - June
+    - [ ] Test
+  - July
+      - [ ] Test
+  - August
+      - [ ] Test
+  - September
+      - [ ] Test
+  - October
 
 </details>

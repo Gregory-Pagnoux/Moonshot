@@ -26,12 +26,11 @@
       - [E. Functional Requierements](#e-functional-requierements)
         - [1. First version](#1-first-version)
         - [2. Second version](#2-second-version)
-        - [3. Futures versions](#3-futures-versions)
+        - [3. Futures improvements](#3-futures-improvements)
       - [F. Functional Analysis](#f-functional-analysis)
         - [1. Mirror](#1-mirror-1)
         - [2. Application](#2-application-1)
-      - [G. Use Case Analysis](#g-use-case-analysis)
-      - [H. Non-functional Requierements](#h-non-functional-requierements)
+      - [G. Non-functional Requierements](#g-non-functional-requierements)
         - [1. cost](#1-cost)
         - [2. Environment](#2-environment)
         - [3. Security](#3-security)
@@ -58,7 +57,7 @@
 |01.1|Grégory PAGNOUX| 20/01/2024 | Initial Release  |
 |01.2|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) |
 |01.3|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
-|01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis, use case analysis) |
+|01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis) |
 
 ### II. Project Overview
 
@@ -224,7 +223,7 @@ source :
 - lights
 - phone connection
 
-##### 3. Futures versions
+##### 3. Futures improvements
 - take glucose level
 - take alcohol level
 - more aesthetics
@@ -239,17 +238,7 @@ source :
 
 ![functional analysis, application](/img/)
 
-#### G. Use Case Analysis
-
-| ID | Name | Description | Actor(s) | Pre-Conditions | Flow of Events | Exit Criteria |
-|---|---|---|---|---|---|---|
-| 1 | switched on | the customer switched on the mirror | customer | - the mirror is plugged in<br>- the mirror switched off | - the customer press the power button<br>- the mirror turn on the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the time is displayed | all the lights came on, the mirror can be used by the customer |
-| 2 | switched off | the customer switched off the mirror | customer | the mirror is plugged in<br>- the mirror switched on | - the customer press the power button<br>- the mirror turn off the light<br>- the mirror turn on the green, yellow and red LED for 3 secondes<br>- the time will disappear | all the lights came off, the mirror is switched off |
-| 3 |  |  |  |  |  |
-| 4 |  |  |  |  |  |
-| 5 |  |  |  |  |  |
-
-#### H. Non-functional Requierements
+#### G. Non-functional Requierements
 
 ##### 1. cost
 
@@ -275,7 +264,8 @@ source :
 
 **Time conception**
 
-- to be defined
+First version :
+- Septembre 2024 - Mai 2025
 
 ##### 2. Environment
 
@@ -293,19 +283,19 @@ source :
 
 ### Glossary
 
-[^1]: [thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)
+[^1]: **[Thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)**
 ![thermometer laser](/img/thermometer_laser.jpg)
 It's a device allows to mesure the temperature of the body.
 
-[^2]: [Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)
+[^2]: **[Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)**
 ![Samsung Galaxy Watch 4](/img/Samsung_Galaxy_Watch_4.jpg)
 Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
 [presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)
 
-[^3]: [glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1)
+[^3]: **[glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1)**
 ![glucose meter](/img/glucose_meter.png)
 It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped.
 
-[^4]: [breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)
+[^4]: **[breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)**
 ![breathalyzer](/img/breathalyzer.png)
 Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.

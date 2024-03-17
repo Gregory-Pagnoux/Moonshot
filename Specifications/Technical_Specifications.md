@@ -6,25 +6,23 @@
 <summary>📖 Table of content</summary>
 
 - [Technical Specifications](#technical-specifications)
-  - [I. Introduction of the project](#i-introduction-of-the-project)
-      - [A. Client](#a-client)
-      - [B. Goal of the project](#b-goal-of-the-project)
+    - [I. Document](#i-document)
+      - [A. Information](#a-information)
+      - [B. History](#b-history)
+      - [C. Overview](#c-overview)
   - [II. Solution](#ii-solution)
       - [A. Descritpion](#a-descritpion)
       - [B. Software architecture](#b-software-architecture)
       - [C. Technical constraints](#c-technical-constraints)
-        - [1. The Complexity](#1-the-complexity)
-        - [2. C# coding convention](#2-c-coding-convention)
-        - [3. Implementation](#3-implementation)
-      - [D. How is it work ?](#d-how-is-it-work-)
+        - [1. C coding convention](#1-c-coding-convention)
+        - [2. Implementation](#2-implementation)
+      - [D. How it work ?](#d-how-it-work-)
       - [E. Program architecture diagram](#e-program-architecture-diagram)
-  - [VI. Quality Control](#vi-quality-control)
-      - [A. Quality Control Objectives](#a-quality-control-objectives)
-      - [B. Team Coordination](#b-team-coordination)
-      - [C. Evaluation Criteria](#c-evaluation-criteria)
-      - [D. Error Management and Corrections](#d-error-management-and-corrections)
-      - [E. Documentation and Reporting](#e-documentation-and-reporting)
-  - [III. Further considerations](#iii-further-considerations)
+  - [III. Quality Control](#iii-quality-control)
+      - [A. Objectives](#a-objectives)
+      - [B. Error Management and Corrections](#b-error-management-and-corrections)
+      - [C. Documentation and Reporting](#c-documentation-and-reporting)
+  - [IV. Further considerations](#iv-further-considerations)
       - [A. Cost estimation](#a-cost-estimation)
         - [1. Software](#1-software)
         - [2. Hardware](#2-hardware)
@@ -32,60 +30,63 @@
         - [4. Time \& Human](#4-time--human)
       - [B. Security](#b-security)
       - [C. Accessibility](#c-accessibility)
-  - [IV. Success evaluation](#iv-success-evaluation)
+  - [V. Success evaluation](#v-success-evaluation)
     - [Glossary](#glossary)
 
 </details>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## I. Introduction of the project
+### I. Document
 
-#### A. Client
+#### A. Information
 
-The client is the House Krug Champagne[^1], conceptor of champagne since 1843. Based in Reims, they try to make each year the best products thanks to the respect of the vineyards. It's important to note that Krug is renowned for its production of high quality champagne and is considered one of the most prestigious houses in the Champagne region.
+| Document ID | Document # 02 |
+|---|---|
+| Document Owner | Grégory PAGNOUX |
+| Issue date | 02/06/2024 |
+| Document Name | Technical Specification|
 
-In addition, Krug has several labels that testify to the quality of its champagnes. One of the most prestigious labels that Krug has is "Champagne de Prestige", which designates the most upmarket and exceptional champagnes.
+#### B. History
 
-It also offers Grande Cuvée champagne (currently the 171st edition), Rosé, Millésime, Clos Mesnil, Clos d'Ambonnay and Collections, each with a unique history.
+| Version n° | Edits completed by | Date | Description of edit |
+|---|---|---|---|
+|01.1|Grégory PAGNOUX| 17/03/2024 | Initial Release  |
 
-Krug is classified has the title of "Récoltant-Manipulant" (RM)[^2], which means that it is completely independent. It produces its own grapes and makes its own champagne in its own facilities.
+#### C. Overview
 
-#### B. Goal of the project
+<center>
 
-The objectif of the project is to implement a program who blend many wines to realize an unique blending with the lowest complexity[^3] for the program and the least loss of wine in the tanks.
+![Pheonix](/img/logo.png)
+
+</center>
+
+Phoenix is a healthy mirror who allows to the customer to control his temperature with a thermometer laser[^1], pulse thanks to BioActive sensor[^2], diabetes with a glucose meter[^3], and if he is alcoholic with a breathalyzer[^4].
+With your Smartphone you have the possibility to track your datas.
 
 ## II. Solution
 
 #### A. Descritpion
 
-We have a configuration file where the user can enter the capacity of each tanks manually and also the formula of blending.
 
-After entering all the parameters and validating them, the program calculates, as quickly as possible, the path between the tanks that the wine must take for the blends with the least amount of loss.
-
-The user has a return of numbers of steps, i.e. the numbers of transfer of wine (in different tanks or same tanks that an other wine), the similarity with the original formula and which tank has been useful for the blending.
 
 #### B. Software architecture
 
-The software could be developed using a layered architecture[^4], with each layer responsible for a specific set of functionalities.
+The software could be developed using a layered architecture, with each layer responsible for a specific set of functionalities.
 
-The presentation layer[^5] would be the user interface that the Cellar Master[^6] and her team would interact with.
+The presentation layer would be the user interface that the Cellar Master and her team would interact with.
 
-The business logic layer[^7] would handle the core functionality of the software, including the blending algorithms and data validation. This layer would be developed using C# and .NET 6.0's latest features, such as C# 10 and the new record types, to ensure maximum performance and maintainability.
+The business logic layer would handle the core functionality of the software, including the blending algorithms and data validation. This layer would be developed using C# and .NET 6.0's latest features, such as C# 10 and the new record types, to ensure maximum performance and maintainability.
 
-The data access layer[^8] would be responsible for handling data storage and retrieval, such as keeping track of the tanks and their current contents. This layer would be developed using .NET 6.0's EF Core[^9] framework, which provides a powerful and flexible ORM[^10] (Object-Relational Mapping) toolset for working with databases.
+The data access layer would be responsible for handling data storage and retrieval, such as keeping track of the tanks and their current contents. This layer would be developed using .NET 6.0's EF Core framework, which provides a powerful and flexible ORM (Object-Relational Mapping) toolset for working with databases.
 
-To ensure that the software is reliable and fault-tolerant, it would be designed using the SOLID principles[^11] and unit tested extensively using .NET 6.0's built-in testing framework.
+To ensure that the software is reliable and fault-tolerant, it would be designed using the SOLID principles and unit tested extensively using .NET 6.0's built-in testing framework.
 
 Overall, this architecture would provide a robust and scalable software solution for the Krug Champagne blending process, built using the latest and most advanced technologies in the .NET ecosystem.
 
 #### C. Technical constraints
 
-##### 1. The Complexity
-
-The most important thing to consider throughout the project is to have an `O(X)` with X = `1`, `log n` or `n`. The values to be avoided absolutely for the efficiency of the program, is an `O(X)` with X = `n²`, `2^n` and `n!`.
-
-##### 2. C# coding convention
+##### 1. C coding convention
 
 | Notation | How | Usage | Example |
 | :-: | :-: | :-: | :-: |
@@ -102,11 +103,11 @@ The most important thing to consider throughout the project is to have an `O(X)`
 
 *source : []()*
 
-##### 3. Implementation
+##### 2. Implementation
 
-The program is implemented by the technique of TDD[^13]. The program generate a general tree[^14] and use the BFS[^15] method and the pruning[^16] technique.
+The program is implemented by the technique of TDD. The program generate a general tree and use the BFS method and the pruning technique.
 
-#### D. How is it work ?
+#### D. How it work ?
 
 **1. Tanks.cs file**
 
@@ -162,7 +163,7 @@ namespace KrugApp
 
 **1. V.1 of the algorithm**
 
-![Program Architechture Diagram](Images/Architecture_diagram.png)
+![Program Architechture Diagram](img/Architecture_diagram.png)
 This algorithm has been abandoned because :
 
 - Big O complexity is too high
@@ -171,11 +172,11 @@ This algorithm has been abandoned because :
 
 **2. V.2 of the algorithm**
 
-![Program Architechture Diagram](Images/Architecture_diagram2.png)
+![Program Architechture Diagram](img)
 
-## VI. Quality Control
+## III. Quality Control
 
-#### A. Quality Control Objectives
+#### A. Objectives
 
 To ensure that the Rubik’s Art Project achieves the desired outcomes and meets ALGOSUP's expectations, a comprehensive quality control (QC) plan is essential. The primary objectives of the QC process are:
 
@@ -185,23 +186,7 @@ Confirm the durability and safety of the installations.
 Foster coordination and communication among the 8 teams.
 Address errors efficiently and promptly.
 
-#### B. Team Coordination
-
-Given that multiple teams are involved in the project, coordinated quality control is crucial. Steps for effective coordination include:
-
-Centralized Communication: Establish a centralized platform for communication where teams can raise concerns, provide updates, and request resources.
-Regular Check-ins: Schedule periodic check-ins where teams showcase their progress and receive feedback.
-Shared Documentation: Maintain shared documentation that logs errors, corrections, and observations for all teams to access and learn from.
-
-#### C. Evaluation Criteria
-
-To maintain consistency across all teams, standardized evaluation criteria should be adopted. Some of the key criteria include:
-
-Accuracy: The orientation and color scheme of the Rubik’s cubes should align with the design specifications.
-Software Performance: The application should be user-friendly, provide accurate instructions, and have minimal bugs or errors.
-Installation Durability: Whether using the showcase or the frame with polycarbonate sheets, the installation should be sturdy, and with all components securely fixed.
-
-#### D. Error Management and Corrections
+#### B. Error Management and Corrections
 
 Despite best efforts, errors may occur. To manage them effectively:
 
@@ -209,59 +194,62 @@ Error Logging: Create a system where teams can log any errors or deviations they
 Prioritization: Classify errors based on their severity and impact on the project. Address critical issues first.
 Correction Teams: Designate members from each team to be part of a correction team, responsible for addressing and rectifying errors.
 
-#### E. Documentation and Reporting
+#### C. Documentation and Reporting
 
-Maintain a comprehensive record of the QC process. This should include:
+Maintain a comprehensive record of the process. This should include:
 
-Daily Reports: A summary of the day’s work, including any errors encountered and how they were addressed.
-Weekly Summaries: A consolidated report of the week's progress, challenges, and learnings.
-Final QC Report: To conclude the project, compile a final report outlining the QC process, results, and recommendations for future projects.
+Weekly Reports: A consolidated report of the week's progress, challenges, and learnings.
 
-## III. Further considerations
+## IV. Further considerations
 
 #### A. Cost estimation
 
 ##### 1. Software
 
-The application has been implemented without paid resources and it’s not hosted by a server. There is no cost for the software side.
+
 
 ##### 2. Hardware
 
-We don’t have a device to rotate Rubik’s Cubes and the application only needs a computer. There is no cost for the hardware side.
+
 
 ##### 3. Material
 
-We have 2 different solutions to present and highlight the fresco. You have the choice between the showcase (667€) and the frame with polycarbonate sheet (364€). you can refer to the previous price table (IV and V categories) to decide which installation you want.
+
 
 ##### 4. Time & Human
 
-To create the fresco, the 8 teams, each composed of 6 or 7 members (49 students in total), have been assigned a section with approximately 370 Rubik’s cubes to create the image, so between 52 and 62 Rubik’s per person.
-We estimate that each team requires between 9 and 10 hours to complete their portion of the mural, assuming an average of 90 seconds per Rubik’s.
 
 
 #### B. Security
 
-Each data used by the program aren't saved when your close the program and avoids any security problems regarding data theft.
+
 
 #### C. Accessibility
 
-The program will be accessible by a text file to enter data like the formula (in percentage), the similarity expected (in percentage) or also each tank available and returns a text file with the steps, the percentage of similarity
 
-## IV. Success evaluation
+
+## V. Success evaluation
 
 The program is scored according to the following criteria :
-
-1. Correctness: no crash, no half full or half empty tanks
-2. How close your final product is from the input formula
-3. Comments and idiomatic style
-4. Minimum number of steps to get to the result
-5. Complexity and Speed of the code
+- All features are accessible
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ### Glossary
 
-[^1]: **RM (Récoltant-Manipulant = Harvester-Handler):**
-The abbreviation RM precedes the professional registration number issued by the Comité Champagne and indicates the professional category of the producer.
-In order, there is Handler Trader, Handler Harvester, Harvester-Cooperator, Handler Cooperative, Distributor Trader, Buyer Brand.
-*source : [Ministry of the Economy](https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratique/Champagne)*
+[^1]: **[Thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)**
+![thermometer laser](/img/thermometer_laser.jpg)
+It's a device allows to mesure the temperature of the body.
+
+[^2]: **[Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)**
+![Samsung Galaxy Watch 4](/img/Samsung_Galaxy_Watch_4.jpg)
+Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
+[presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)
+
+[^3]: **[glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1)**
+![glucose meter](/img/glucose_meter.png)
+It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped.
+
+[^4]: **[breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)**
+![breathalyzer](/img/breathalyzer.png)
+Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.
