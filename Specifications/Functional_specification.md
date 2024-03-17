@@ -54,7 +54,7 @@
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01.1|Grégory PAGNOUX| 20/01/2024 | Initial Release  |
+|01.1|Grégory PAGNOUX| 20/01/2024 | Initial Release |
 |01.2|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) |
 |01.3|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
 |01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis) |
@@ -97,11 +97,11 @@ sources :
 
 ### III. Product
 
-![design](/img/design.png)
-
 #### A. System Purpose
 
 ##### 1. Mirror
+
+![design](/img/design.png)
 
 - **switched off**
 
@@ -142,6 +142,8 @@ The temperature is displayed on the mirror screen.
 The user presses the validation button for 3 seconds and the yellow light flashes for 10 seconds. The user can connect their phone to the mirror during this time. When the connection is established, the green light blink for 3 secondes, otherwise the red light blink for 3 seconds.
 
 ##### 2. Application
+
+![app design](/img/appDesign.png)
 
 **installation**
 

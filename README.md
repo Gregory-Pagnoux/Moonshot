@@ -1,22 +1,41 @@
 # Moonshot Project
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Description
 
 The Moonshot Project is a personnal project which is to be achieved in 5 years in order to put into practice what we have learned during the years spent at ALGOSUP.
 
-The project I am working on is a mirror who describes the main health functions such as your pulse rate or fever.
+<center>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![Pheonix](/img/logo.png)
 
-### Contributor(s)
+</center>
 
-<img alt="grégory pagnoux" src="https://avatars.githubusercontent.com/u/114397869?s=400&v=4" width="150">
+Phoenix is a healthy mirror who allows to the customer to control his temperature with a thermometer laser, pulse thanks to BioActive sensor, diabetes with a glucose meter, and if he is alcoholic with a breathalyzer.
 
-#### [**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
+![design](/img/design.png)
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+With your Smartphone you have the possibility to track your datas.
+
+![app design](/img/appDesign.png)
+
+
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### Project owner
+
+<img alt="grégory pagnoux" src="https://avatars.githubusercontent.com/u/114397869?s=400&v=4" width="135">
+
+[**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
+
+## Contributors
+
+| Name | Role | Description | GitHub | Contact |
+| - | - | - | - | - |
+|  |  |  |  |  |
+
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Documents links / plan
 
@@ -26,7 +45,7 @@ The project I am working on is a mirror who describes the main health functions 
 
 18/05/2023 : [Research document](/archives/mirror-health_research.md)
 
-10/08/2023 : share [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
+10/08/2023 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
 <img alt="poster" src="/img/poster.png" width="350">
 *poster to share field survey to the public*
 

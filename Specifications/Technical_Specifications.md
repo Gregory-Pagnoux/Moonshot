@@ -53,7 +53,7 @@
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01.1|Grégory PAGNOUX| 17/03/2024 | Initial Release  |
+|01.1|Grégory PAGNOUX| 17/03/2024 | Initial Release |
 
 #### C. Overview
 
