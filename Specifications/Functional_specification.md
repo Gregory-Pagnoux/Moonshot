@@ -143,15 +143,28 @@ The user presses the validation button for 3 seconds and the yellow light flashe
 
 ##### 2. Application
 
+<!--TODO-->
 ![app design](/img/appDesign.png)
 
 **installation**
 
-to be defined
+<!--TODO-->
 
 **opening**
 
-to be defined
+<!--TODO-->
+
+**call a doctor**
+
+<!--TODO-->
+
+**settings**
+
+<!--TODO-->
+
+**data graphs**
+
+<!--TODO-->
 
 #### C. Personas and Scenarios
 
@@ -238,6 +251,7 @@ source :
 
 ##### 2. Application
 
+<!--TODO-->
 ![functional analysis, application](/img/)
 
 #### G. Non-functional Requierements
