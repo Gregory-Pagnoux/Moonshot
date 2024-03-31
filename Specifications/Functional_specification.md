@@ -34,6 +34,7 @@
         - [1. cost](#1-cost)
         - [2. Environment](#2-environment)
         - [3. Security](#3-security)
+    - [IV. Risk](#iv-risk)
     - [Glossary](#glossary)
 
 </details>
@@ -287,13 +288,21 @@ First version :
 
 - MacOS on development
 - Visual Studio Code
-- C language
+- Arduino language
 
 ##### 3. Security
 
 - respect RGPD and data saving law
 - solid product
 - moisture-resistant
+
+### IV. Risk
+
+**Competitors**
+
+For this product, there is a main competitor called [Care OS](https://www.care-os.com). The company has already marketed Poseidon, a healthy mirror and has now developed a new mirror, [BMind](/BMind/BMind%20-%20Product%20sheet.pdf), with a lot of daily hygiene functions such as tooth brushing, water monitoring or skin analysis. There are also tools and entertainment such as games, videos or music to encourage children to take care of themselves.
+This product has around fifteen partners including [Teraillon](https://www.terraillon.com/en), one of the leading manufacturers of product for the home. There is also [Pierre Fabre](https://www.pierre-fabre.com/en), a major research laboratory into cancers and diseases of the body.
+Their mirror is not yet available for sale, but will cost between 3,000 and 5,000 dollars depending on the options chosen.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
