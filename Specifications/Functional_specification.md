@@ -59,6 +59,7 @@
 |01.2|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) |
 |01.3|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
 |01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis) |
+|01.5|Grégory PAGNOUX| 02/06/2024 | document improvement (application details, and design) |
 
 ### II. Project Overview
 
@@ -93,6 +94,7 @@ These are habits you can start with the connected healthly mirror, Phoenix.
 By 2045, there will be 700 million diabetics worldwide and the number of accidents caused by alcohol has struggled to fall in recent years, this mirror should be of use to over 22 million French people.
 
 sources :
+
 - [French Ministry of Health](https://sante.gouv.fr/soins-et-maladies/maladies/article/diabete#:~:text=Les%20chiffres%20clefs%20du%20diabète,700%20millions%20d%27ici%202045.)
 - [road safety](https://www.securite-routiere.gouv.fr/dangers-de-la-route/lalcool-et-la-conduite#:~:text=Les%20accidents%20impliquant%20de%20l,pour%20les%20accidents%20sans%20alcool.)
 
@@ -149,23 +151,27 @@ The user presses the validation button for 3 seconds and the yellow light flashe
 
 **installation**
 
-<!--TODO-->
+The application can be install from Google Play in the first time
 
 **opening**
+
+To open the application, you click on the icon that he appear on your smartphone when you install it and for the first time, you need to sign up with your mail adress. After, you have just to click on your profil (you can have 5 profils with one mirror).
+
+**profil**
+
+On your profil, you can modify your profil picture, and add information about you age, your weight, and your size to calculate your BMI.
+
+**settings**
+
+On the settings page, you can modify your mail adress, and your password, you can change with the night or day mode, and change the language between french or english for the first time.
+
+**data graphs**
 
 <!--TODO-->
 
 **call a doctor**
 
-<!--TODO-->
-
-**settings**
-
-<!--TODO-->
-
-**data graphs**
-
-<!--TODO-->
+On the call page, you have the possibility to register all doctors such as general practitioners, dentists, home nurses, etc. You can put their phone number, their adress, their mail and you can contact them directly on the application.
 
 #### C. Personas and Scenarios
 
@@ -222,6 +228,7 @@ There are three different archives depending on the type of data :
 - **Final archiving** where data that remains of great interest in the future without an end date are saved, after an upstream check.
 
 source :
+
  - [Acronis](https://www.acronis.com/fr-fr/blog/posts/gdpr/)
  - [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
  - [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
@@ -229,6 +236,7 @@ source :
 #### E. Functional Requierements
 
 ##### 1. First version
+
 - take temperature
 - take pulse
 - print value on the mirror
@@ -236,10 +244,12 @@ source :
 - user-friendly
 
 ##### 2. Second version
+
 - lights
 - phone connection
 
 ##### 3. Futures improvements
+
 - take glucose level
 - take alcohol level
 - more aesthetics
@@ -282,13 +292,15 @@ source :
 **Time conception**
 
 First version :
+
 - Septembre 2024 - Mai 2025
 
 ##### 2. Environment
 
 - MacOS on development
 - Visual Studio Code
-- Arduino language
+- Arduino language (mirror)
+- Java (application)
 
 ##### 3. Security
 

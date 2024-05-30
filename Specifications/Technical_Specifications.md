@@ -114,7 +114,7 @@ The user presses the validation button for 3 seconds and the yellow light flashe
 
 ##### 2. Application
 
-to be defined
+<!--TODO-->
 
 #### B. Software architecture
 
@@ -134,18 +134,14 @@ Overall, this architecture would provide a robust and scalable software solution
 
 ##### 1. C coding convention
 
+<!--TODO-->
+
 | Notation | How | Usage | Example |
 | :-: | :-: | :-: | :-: |
 | Pascal Casing | we attach each word and capitalize it to know where the next word starts (ex: DataService) | naming Class | <pre>```public class DataService```<br>```{```<br>```}```</pre> |
 |  |  | naming record | <pre>```public record PhysicalAddress(```<br>```)```</pre> |
-|  |  | naming structure | <pre>```public struct ValueCoordinate```<br>```{```<br>```}```</pre> |
-|  |  | naming interface | <pre>```public interface IWorkerQueue```<br>```{```<br>```}```</pre> |
-|  |  | naming public members | <pre>```public class Example```<br>```{```<br>    ```public IWorkerQueue WorkerQueue { get; init; }```<br>```{```</pre> |
-| Camel Casing = _ | prefix them | naming private or internal fields | <pre>```public class DataService```<br>```{```<br>    ```private IWorkerQueue _workerQueue;``` <br>```}```</pre> |
-|  | prefix `s_` | static fields that are private or internal | <pre>```public class DataService```<br>```{```<br>    ```private static IWorkerQueue s_workerQueue;```<br>```}```</pre> |
-|  | prefix `t_` | thread static fields that are private or internal | <pre>```public class DataService```<br>```{```<br>    ```[ThreadStatic]```<br>    ```private static TimeSpan t_timeSpan;```<br>```}```</pre> |
-| dot = . |  | separate name too long | <pre>```var currentPerformanceCounterCategory = new System.Diagnostics.```<br>    ```PerformanceCounterCategory();```</pre> |
 | comment = // | start each line with two slashes and an uppercase letter and finish the comment by a period. | give more information of the code | <pre>```// The following declaration creates a query. It does not run the query.```</pre> |
+|  |  |  |  |
 
 *source : []()*
 
@@ -252,31 +248,32 @@ Weekly Reports: A consolidated report of the week's progress, challenges, and le
 
 ##### 1. Software
 
-
+<!--TODO-->
 
 ##### 2. Hardware
 
-
+<!--TODO-->
 
 ##### 3. Material
 
-
+<!--TODO-->
 
 ##### 4. Time & Human
 
-
+<!--TODO-->
 
 #### B. Security
 
-
+<!--TODO-->
 
 #### C. Accessibility
 
-
+<!--TODO-->
 
 ## V. Success evaluation
 
 The program is scored according to the following criteria :
+
 - All features are accessible
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
