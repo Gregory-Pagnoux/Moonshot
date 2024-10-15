@@ -43,17 +43,17 @@
 
 #### A. Information
 
-| Document ID | Document # 02 |
+| Document ID | #02 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
 | Issue date | 02/06/2024 |
-| Document Name | Technical Specification|
+| Document Name | Technical Specification |
 
 #### B. History
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01.1|Grégory PAGNOUX| 17/03/2024 | Initial Release |
+| 1.1 | Grégory PAGNOUX | 17/03/2024 | Initial Release |
 
 #### C. Overview
 

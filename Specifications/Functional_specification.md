@@ -27,9 +27,7 @@
         - [1. First version](#1-first-version)
         - [2. Second version](#2-second-version)
         - [3. Futures improvements](#3-futures-improvements)
-      - [F. Functional Analysis](#f-functional-analysis)
-        - [1. Mirror](#1-mirror-1)
-        - [2. Application](#2-application-1)
+      - [F. Mirror Functional Analysis](#f-mirror-functional-analysis)
       - [G. Non-functional Requierements](#g-non-functional-requierements)
         - [1. cost](#1-cost)
         - [2. Environment](#2-environment)
@@ -45,21 +43,22 @@
 
 #### A. Information
 
-| Document ID | Document # 01 |
+| Document ID | #01 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
-| Issue date | 10/03/2024 |
+| Issue date | 10/31/2024 |
 | Document Name | Functional Specification|
 
 #### B. History
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-|01.1|Grégory PAGNOUX| 20/01/2024 | Initial Release |
-|01.2|Grégory PAGNOUX| 25/02/2024 | document improvement (mirror system purpose, document architecture) |
-|01.3|Grégory PAGNOUX| 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
-|01.4|Grégory PAGNOUX| 10/03/2024 | document improvement (pictures of personas, functional analysis) |
-|01.5|Grégory PAGNOUX| 02/06/2024 | document improvement (application details, and design) |
+| 1.1 | Grégory PAGNOUX | 01/20/2024 | Initial Release |
+| 1.2 | Grégory PAGNOUX | 02/25/2024 | document improvement (mirror system purpose, document architecture) |
+| 1.3 | Grégory PAGNOUX | 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
+| 1.4 | Grégory PAGNOUX | 03/10/2024 | document improvement (pictures of personas, functional analysis) |
+| 1.5 | Grégory PAGNOUX | 06/02/2024 | document improvement (application details, and design) |
+| 1.6 | Grégory PAGNOUX | 10/15/2024 | end of the first version (mirror functional analysis, applications details) |
 
 ### II. Project Overview
 
@@ -146,8 +145,8 @@ The user presses the validation button for 3 seconds and the yellow light flashe
 
 ##### 2. Application
 
-<!--TODO-->
-![app design](/img/appDesign.png)
+Here are the application's functionalities.
+(As this is not the main project, but an option added to the mirror to complete its use, there will be no further details).
 
 **installation**
 
@@ -167,7 +166,7 @@ On the settings page, you can modify your mail adress, and your password, you ca
 
 **data graphs**
 
-<!--TODO-->
+These graphs can be found on each options page for tracking their data in each category.
 
 **call a doctor**
 
@@ -223,6 +222,7 @@ One of the big problems to consider with this mirror is the increase in people's
 **Data**
 If we want to have a connected mirror with smartphone, we need to interest us on the **the reglementation of data backups**.
 There are three different archives depending on the type of data :
+
 - **Active database archiving** where data that are no longer useful to the enterprise (for example, data on job seekers to which they have not followed up) are deleted once the reason for the study has been completed (after a maximum of two years).
 - **Intermediate archiving** where data are saved even after the purpose of data collection has been achieved as they are still of interest to the enterprise. The duration is set by the person responsible and must be relevant to its usefulness.
 - **Final archiving** where data that remains of great interest in the future without an end date are saved, after an upstream check.
@@ -254,16 +254,9 @@ source :
 - take alcohol level
 - more aesthetics
 
-#### F. Functional Analysis
-
-##### 1. Mirror
+#### F. Mirror Functional Analysis
 
 ![functional analysis, mirror](/img/mirror_functional_analysis.png)
-
-##### 2. Application
-
-<!--TODO-->
-![functional analysis, application](/img/)
 
 #### G. Non-functional Requierements
 
@@ -293,7 +286,7 @@ source :
 
 First version :
 
-- Septembre 2024 - Mai 2025
+- November 2024 - May 2025
 
 ##### 2. Environment
 

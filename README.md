@@ -100,16 +100,12 @@ With your Smartphone you have the possibility to track your datas.
     - [x] research data law
   - November - December:
 - 2024
-  - January - August :
+  - January - October :
     - [ ] Specifications
       - [x] Functional
       - [ ] Technical
-  - September :
-    - [ ] Validation
-    - [ ] Conception
-  - October :
-    - [ ] Conception
   - November :
+    - [ ] Validation
     - [ ] Conception
   - December :
     - [ ] Conception
