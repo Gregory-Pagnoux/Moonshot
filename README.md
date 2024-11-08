@@ -20,7 +20,6 @@ With your Smartphone you have the possibility to track your datas.
 
 ![app design](/img/appDesign.png)
 
-
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Project owner
@@ -31,38 +30,37 @@ With your Smartphone you have the possibility to track your datas.
 
 ## Contributors
 
-| Name | Role | Description | GitHub | Contact |
+| Name | Role | Description | Contact |
 | - | - | - | - | - |
-|  |  |  |  |  |
+| Maxime Caron | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [mail](mailto:maxime.caron@algosup.com) |
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Documents links / plan
 
-01/01/2023 : [Idea of Moonshot Project](/archives/moonshot_project.md) 
+01/01/2023 : [Idea of Moonshot Project](/archives/moonshot_project.md)
 
-17/04/2023 : [Presentation of the mirror health](/archives/mirror-health_product.md)
+04/17/2023 : [Presentation of the mirror health](/archives/mirror-health_product.md)
 
-18/05/2023 : [Research document](/archives/mirror-health_research.md)
+05/18/2023 : [Research document](/archives/mirror-health_research.md)
 
-10/08/2023 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
+08/10/2023 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
 <img alt="poster" src="/img/poster.png" width="350">
 *poster to share field survey to the public*
 
-10/08/2024 : [Financial plan](/archives/mirror-health_financial-plan.md)
+08/10/2024 : [Financial plan](/archives/mirror-health_financial-plan.md)
 
-20/01/2024 : [Functional Specification](/Specifications/Functional_specification.md)
+01/20/2024 : [Functional Specification](/Specifications/Functional_specification.md)
 
-22/01/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+01/22/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
 
-//2024 : [Technical Specifications](/Specifications/Technical_Specifications.md)
+11/08/2024 : [Technical Specifications](/Specifications/Technical_Specifications.md)
 
 //2024 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
 
 //2024 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
 
 //2024 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

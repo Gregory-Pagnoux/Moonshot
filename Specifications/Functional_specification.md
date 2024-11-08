@@ -18,17 +18,17 @@
       - [A. System Purpose](#a-system-purpose)
         - [1. Mirror](#1-mirror)
         - [2. Application](#2-application)
-      - [C. Personas and Scenarios](#c-personas-and-scenarios)
+      - [B. Personas and Scenarios](#b-personas-and-scenarios)
         - [1. Sarah](#1-sarah)
         - [2. Michael](#2-michael)
         - [3. Emily](#3-emily)
-      - [D. Assumptions and Constraints](#d-assumptions-and-constraints)
-      - [E. Functional Requierements](#e-functional-requierements)
+      - [C. Assumptions and Constraints](#c-assumptions-and-constraints)
+      - [D. Functional Requirements](#d-functional-requirements)
         - [1. First version](#1-first-version)
         - [2. Second version](#2-second-version)
         - [3. Futures improvements](#3-futures-improvements)
-      - [F. Mirror Functional Analysis](#f-mirror-functional-analysis)
-      - [G. Non-functional Requierements](#g-non-functional-requierements)
+      - [E. Mirror Functional Analysis](#e-mirror-functional-analysis)
+      - [F. Non-functional Requirements](#f-non-functional-requirements)
         - [1. cost](#1-cost)
         - [2. Environment](#2-environment)
         - [3. Security](#3-security)
@@ -172,7 +172,7 @@ These graphs can be found on each options page for tracking their data in each c
 
 On the call page, you have the possibility to register all doctors such as general practitioners, dentists, home nurses, etc. You can put their phone number, their adress, their mail and you can contact them directly on the application.
 
-#### C. Personas and Scenarios
+#### B. Personas and Scenarios
 
 ##### 1. Sarah
 
@@ -211,7 +211,7 @@ When Emily discovered Phoenix, she was impressed by its innovative features and 
 
 Emily appreciates the simplicity of accessing all her health data on her smartphone, making it easier for her to share important information with her healthcare provider during check-ups.
 
-#### D. Assumptions and Constraints
+#### C. Assumptions and Constraints
 
 **hygiene**
 We need to pay close attention to the hygiene aspect of the product, as the glucose meter and breathalyzer require the deposition of particles that can dirty the mirror.
@@ -233,7 +233,7 @@ source :
  - [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
  - [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
 
-#### E. Functional Requierements
+#### D. Functional Requirements
 
 ##### 1. First version
 
@@ -254,11 +254,11 @@ source :
 - take alcohol level
 - more aesthetics
 
-#### F. Mirror Functional Analysis
+#### E. Mirror Functional Analysis
 
 ![functional analysis, mirror](/img/mirror_functional_analysis.png)
 
-#### G. Non-functional Requierements
+#### F. Non-functional Requirements
 
 ##### 1. cost
 
