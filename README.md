@@ -32,7 +32,8 @@ With your Smartphone you have the possibility to track your datas.
 
 | Name | Role | Description | Contact |
 | - | - | - | - | - |
-| Maxime Caron | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [mail](mailto:maxime.caron@algosup.com) |
+| Maxime CARON | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [mail](mailto:maxime.caron@algosup.com) |
+| Benoît DE KEIN | External advisor | give some advise hardware components | [mail](mailto:benoit.dekein@algosup.com) |
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -53,6 +54,8 @@ With your Smartphone you have the possibility to track your datas.
 01/20/2024 : [Functional Specification](/Specifications/Functional_specification.md)
 
 01/22/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+
+03/15/2024 : [application protype](https://www.figma.com/proto/itl0GqhHh2b0oBDgE5sX7w/mirror-health?node-id=66-68&node-type=canvas&t=p0dVg4B7qXExj2Pm-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A131)
 
 11/08/2024 : [Technical Specifications](/Specifications/Technical_Specifications.md)
 

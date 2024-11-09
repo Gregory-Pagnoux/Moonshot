@@ -59,6 +59,7 @@
 | 1.4 | Grégory PAGNOUX | 03/10/2024 | document improvement (pictures of personas, functional analysis) |
 | 1.5 | Grégory PAGNOUX | 06/02/2024 | document improvement (application details, and design) |
 | 1.6 | Grégory PAGNOUX | 10/15/2024 | end of the first version (mirror functional analysis, applications details) |
+| 2.1 | Grégory PAGNOUX | 10/15/2024 | modification of components |
 
 ### II. Project Overview
 
@@ -158,9 +159,15 @@ To open the application, you click on the icon that he appear on your smartphone
 
 **profil**
 
+![profil1](/img/profil1.png)
+![profil2](/img/profil2.png)
+
 On your profil, you can modify your profil picture, and add information about you age, your weight, and your size to calculate your BMI.
 
 **settings**
+
+![settings1](/img/settings1.png)
+![settings2](/img/settings2.png)
 
 On the settings page, you can modify your mail adress, and your password, you can change with the night or day mode, and change the language between french or english for the first time.
 
@@ -251,8 +258,9 @@ source :
 ##### 3. Futures improvements
 
 - take glucose level
-- take alcohol level
 - more aesthetics
+
+The breathalyzer option has been abandoned because the system was too diffcult to implement and can't be compatible with the moisture-resistant criteria.
 
 #### E. Mirror Functional Analysis
 
@@ -266,21 +274,19 @@ source :
 
 | WHICH PART | MATERIAL | PRICE | V0.1 | V0.2 |
 | :-: | :-: | :-: | :-: | :-: |
-| To built the mirror | glass (large photo frame) | 10€ | Yes | Yes |
-|  | [self-adhesif mirror](https://www.amazon.fr/Lifemaison-Autocollant-Adhérence-Décoratif-50x200cm/dp/B0BCFVG4RT/ref=asc_df_B0BCFVG4RT/?tag=googshopfr-21&linkCode=df0&hvadid=627335705485&hvpos=&hvnetw=g&hvrand=9017061648460033442&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-1905220316044&th=1) | 14€ | Yes | Yes |
-| Component add to the mirror | [transparent LED display](https://www.lg.com/fr/business/affichage-led/lg-LAT240DT1) | make a quote | Yes | Yes |
-|  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 9€ | Yes | Yes |
-|  | [green, yellow, red lights]() | to be defined | Yes | Yes |
-|  | [LED strip light](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099519895939&sku_id=17592230663628&_x_ns_sku_id=17592230663628&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20124197984&_x_ads_id=150623603962&_x_ads_creative_id=658287999075&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592230663628&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4-y7YSNwN-9XXHfLhr6x1omCjtnJqAAgWcHpiapEaLf3moRFBoCJgo&_x_ns_gbraid=0AAAAAo4mICGlLRY-zIEBBV60NLgRSSUm6&_x_ns_targetid=pla-2092819011972&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50_TImuYMK5rRoyfRWbLoIHlW83s6oJxuaxPfCDRpS9Tbou7mM7NxMaAgCTEALw_wcB&adg_ctx=f-6465104f) | 5€ | No | Yes |
-| Options | [thermometer gun](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32) | 30€ | Yes | Yes |
-|  | [BioActive sensor](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/) | 200€ | Yes | Yes |
+| mirror | [mirror](https://www.amazon.fr/DRERIO-Acrylique-Auto-Adh%C3%A9sif-Plastique-Incassable/dp/B0B2JX7G92/ref=asc_df_B0B2JX7G92?tag=bingshoppin0f-21&linkCode=df0&hvadid=79852164178382&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583451681969425&th=1) | 18.99€ | Yes | Yes |
+| Component add to the mirror | [LCD screen](https://www.ebay.fr/itm/205060104095?var=0&mkevt=1&mkcid=1&mkrid=709-53476-19255-0&campid=5338590836&toolid=10044&customid=fad141b04e381189419d269f35e976a5) | 20.05€ | Yes | Yes |
+|  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 11.89€ | Yes | Yes |
+|  | [green, yellow, red lights](https://www.amazon.fr/Miuzei-Electronique-R%C3%A9sistances-Alimentation-Programmation/dp/B0C5CD2DJW/ref=asc_df_B0C5CD2DJW?tag=bingshoppin0f-21&linkCode=df0&hvadid=79989660653509&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589124976046&psc=1) | on the eletronic kit | Yes | Yes |
+|  | [lights](https://www.amazon.fr/Tayire-Gradateur-3000K-R%C3%A9tro%C3%A9clairage-R%C3%A9tro-%C3%89clairage/dp/B0B3CHTS5J/ref=sxin_15_pa_sp_search_thematic_sspa?adgrpid=1364494868369871&content-id=amzn1.sym.ec09204b-08fd-4427-a6e2-1b1b8f14bc8d%3Aamzn1.sym.ec09204b-08fd-4427-a6e2-1b1b8f14bc8d&cv_ct_cx=bande%2Bled&dib=eyJ2IjoiMSJ9.l-jqxGpr3Yw69StR6JKhhmlPBu0JbSI8KgvZ8JwUSZxyb-mFqTJH8cmBSKuILTjoYBRJZ1mu_VbVC4Qsmfd74g.KU-HvzoDfHpQs146_wpm08wXliiNfWmYc3dXvvrkZ5g&dib_tag=se&hvadid=85281356732804&hvbmt=bp&hvdev=c&hvlocphy=126674&hvnetw=o&hvqmt=p&hvtargid=kwd-85281460372238%3Aloc-66&hydadcr=28259_2269076&keywords=bande%2Bled&msclkid=a0ca2681f9d8105a0c7c41ae6839ae2e&pd_rd_i=B0B3CHTS5J&pd_rd_r=41f17886-c437-46f9-8ca3-9fdbd3a859ba&pd_rd_w=oZ62s&pd_rd_wg=8KNIY&pf_rd_p=ec09204b-08fd-4427-a6e2-1b1b8f14bc8d&pf_rd_r=TFZ8Y438N0SQYGSXM2TR&qid=1731170790&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-5-1c0bc4f8-9a4b-47e4-b117-3d30b74c13f1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1) | 11.99€ | No | Yes |
+| Options | [thermometer gun]() | € | Yes | Yes |
+|  | [BioActive sensor](https://fr.hwlibre.com/moniteur-de-fr%C3%A9quence-cardiaque-max30102-et-module-oxym%C3%A8tre-pour-arduino/) | 7.49€ | Yes | Yes |
 |  | [glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1) | 35€ | No | to be defined |
-|  | [breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId) | 13€ | No | to be defined |
-|  | application | depends on host/online cost | to be defined | Yes |
-| internal component | [electronic kit](https://www.temu.com/fr/kuiper/n9.html?subj=googleshopping-landingpage&_bg_fs=1&_p_rfs=1&_x_ads_channel=google&_x_ads_sub_channel=shopping&_x_login_type=Google&_x_vst_scene=adg&mkt_rec=1&goods_id=601099524164587&sku_id=17592249789383&_x_ns_sku_id=17592249789383&_x_gmc_account=742384653&_x_ads_account=5198328713&_x_ads_set=20819421092&_x_ads_id=153466930022&_x_ads_creative_id=682926604759&_x_ns_source=g&_x_ns_gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592249789383&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=CjkKCQiA-62tBhDwARIoAI4OA4_VL5nWuA-uApyq7C26g1POuUhjQ-nZ5dxRduvSGjARFGgjZxoCf9A&_x_ns_gbraid=0AAAAAo4mICGV_-1u5yHHLnky4O24cGqQw&_x_ns_targetid=pla-2264719103480&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50JAXP71zr0-0KJtsw1LbH1ZCLBhgt8hzMOB3I0fTk_ggOCgm5eojwaArHtEALw_wcB&adg_ctx=f-6465104f) | 17€ | Yes | Yes |
-|  | [electronic power supply](https://www.leroymerlin.fr/produits/electricite-et-domotique/tableau-electrique-et-disjoncteur/module-de-commande-de-signalisation-et-de-protection/alimentation-electrique-mince-ip67-36w-transformateur-etanche-de-230v-a-12v-dc-3a-bandes-led-lampes-cameras-90320990.html?Megaboost) | 14€ | Yes | Yes |
-|  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 20€ | Yes | Yes |
-| total |  |  | 314€ | 367€ |
+|  | application | depends on host/online cost | No | Yes |
+| internal component | [electronic kit](https://www.amazon.fr/Miuzei-Electronique-R%C3%A9sistances-Alimentation-Programmation/dp/B0C5CD2DJW/ref=asc_df_B0C5CD2DJW?tag=bingshoppin0f-21&linkCode=df0&hvadid=79989660653509&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589124976046&psc=1) | 49.99€ | Yes | Yes |
+|  | [electronic power supply](https://www.leroymerlin.fr/produits/electricite-et-domotique/tableau-electrique-et-disjoncteur/module-de-commande-de-signalisation-et-de-protection/alimentation-electrique-mince-ip67-36w-transformateur-etanche-de-230v-a-12v-dc-3a-bandes-led-lampes-cameras-90320990.html?Megaboost) | 13.99€ | Yes | Yes |
+|  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 29.99€ | Yes | Yes |
+| total |  |  | 152.39€ | 199.38€ |
 
 **Time conception**
 
