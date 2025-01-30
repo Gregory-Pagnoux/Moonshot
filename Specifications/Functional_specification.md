@@ -59,7 +59,9 @@
 | 1.4 | Grégory PAGNOUX | 03/10/2024 | document improvement (pictures of personas, functional analysis) |
 | 1.5 | Grégory PAGNOUX | 06/02/2024 | document improvement (application details, and design) |
 | 1.6 | Grégory PAGNOUX | 10/15/2024 | end of the first version (mirror functional analysis, applications details) |
-| 2.1 | Grégory PAGNOUX | 10/15/2024 | modification of components |
+| 2.1 | Grégory PAGNOUX | 11/09/2024 | modification of components |
+| 2.2 | Grégory PAGNOUX | 11/14/2024 | Update components, corections |
+| 2.3 | Grégory PAGNOUX | 01/30/2025 | Update components |
 
 ### II. Project Overview
 
@@ -223,9 +225,6 @@ Emily appreciates the simplicity of accessing all her health data on her smartph
 **hygiene**
 We need to pay close attention to the hygiene aspect of the product, as the glucose meter and breathalyzer require the deposition of particles that can dirty the mirror.
 
-**product problem**
-One of the big problems to consider with this mirror is the increase in people's paranoia about illness and the growing number of people suffering from hypochondria.
-
 **Data**
 If we want to have a connected mirror with smartphone, we need to interest us on the **the reglementation of data backups**.
 There are three different archives depending on the type of data :
@@ -245,13 +244,13 @@ source :
 ##### 1. First version
 
 - take temperature
-- take pulse
 - print value on the mirror
 - respect for hygiene
 - user-friendly
 
 ##### 2. Second version
 
+- take pulse
 - lights
 - phone connection
 
@@ -270,23 +269,32 @@ The breathalyzer option has been abandoned because the system was too diffcult t
 
 ##### 1. cost
 
-**Materials**
+**Components**
 
 | WHICH PART | MATERIAL | PRICE | V0.1 | V0.2 |
 | :-: | :-: | :-: | :-: | :-: |
-| mirror | [mirror](https://www.amazon.fr/DRERIO-Acrylique-Auto-Adh%C3%A9sif-Plastique-Incassable/dp/B0B2JX7G92/ref=asc_df_B0B2JX7G92?tag=bingshoppin0f-21&linkCode=df0&hvadid=79852164178382&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583451681969425&th=1) | 18.99€ | Yes | Yes |
-| Component add to the mirror | [LCD screen](https://www.ebay.fr/itm/205060104095?var=0&mkevt=1&mkcid=1&mkrid=709-53476-19255-0&campid=5338590836&toolid=10044&customid=fad141b04e381189419d269f35e976a5) | 20.05€ | Yes | Yes |
-|  | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 11.89€ | Yes | Yes |
-|  | [green, yellow, red lights](https://www.amazon.fr/Miuzei-Electronique-R%C3%A9sistances-Alimentation-Programmation/dp/B0C5CD2DJW/ref=asc_df_B0C5CD2DJW?tag=bingshoppin0f-21&linkCode=df0&hvadid=79989660653509&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589124976046&psc=1) | on the eletronic kit | Yes | Yes |
+| mirror | [screen]() | € | Yes | Yes |
+|  | [transparent acrilic]() | € | Yes | Yes |
+|  | [one way film](https://www.amazon.fr/gp/product/B07BFTRLTK/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&ta[…]21&linkId=4a5dfebd14b4c2e555694ac2f2eee4b7&language=fr_FR&th=1) | 11.99€ | Yes | Yes |
+|  | [wood glue]() | € | Yes | Yes |
+|  | [wooden plank]() | € | Yes | Yes |
+|  | [hot glue]() | € | Yes | Yes |
+| Component add to the mirror | [pressure sensor](https://www.amazon.fr/Capteur-Pression-Couche-Précision-Résistance/dp/B07P9Z7FR6/ref=asc_df_B07P9Z7FR6/?tag=googshopfr-21&linkCode=df0&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564&psc=1&tag=&ref=&adgrpid=71676698856&hvpone=&hvptwo=&hvadid=353896712114&hvpos=&hvnetw=g&hvrand=4898371625524598186&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055097&hvtargid=pla-869632555564) | 11.89€ | No | Yes |
+|  | [green, yellow, red lights](https://www.amazon.fr/Miuzei-Electronique-R%C3%A9sistances-Alimentation-Programmation/dp/B0C5CD2DJW/ref=asc_df_B0C5CD2DJW?tag=bingshoppin0f-21&linkCode=df0&hvadid=79989660653509&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589124976046&psc=1) | on the eletronic kit | No | Yes |
 |  | [lights](https://www.amazon.fr/Tayire-Gradateur-3000K-R%C3%A9tro%C3%A9clairage-R%C3%A9tro-%C3%89clairage/dp/B0B3CHTS5J/ref=sxin_15_pa_sp_search_thematic_sspa?adgrpid=1364494868369871&content-id=amzn1.sym.ec09204b-08fd-4427-a6e2-1b1b8f14bc8d%3Aamzn1.sym.ec09204b-08fd-4427-a6e2-1b1b8f14bc8d&cv_ct_cx=bande%2Bled&dib=eyJ2IjoiMSJ9.l-jqxGpr3Yw69StR6JKhhmlPBu0JbSI8KgvZ8JwUSZxyb-mFqTJH8cmBSKuILTjoYBRJZ1mu_VbVC4Qsmfd74g.KU-HvzoDfHpQs146_wpm08wXliiNfWmYc3dXvvrkZ5g&dib_tag=se&hvadid=85281356732804&hvbmt=bp&hvdev=c&hvlocphy=126674&hvnetw=o&hvqmt=p&hvtargid=kwd-85281460372238%3Aloc-66&hydadcr=28259_2269076&keywords=bande%2Bled&msclkid=a0ca2681f9d8105a0c7c41ae6839ae2e&pd_rd_i=B0B3CHTS5J&pd_rd_r=41f17886-c437-46f9-8ca3-9fdbd3a859ba&pd_rd_w=oZ62s&pd_rd_wg=8KNIY&pf_rd_p=ec09204b-08fd-4427-a6e2-1b1b8f14bc8d&pf_rd_r=TFZ8Y438N0SQYGSXM2TR&qid=1731170790&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-5-1c0bc4f8-9a4b-47e4-b117-3d30b74c13f1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1) | 11.99€ | No | Yes |
-| Options | [thermometer gun]() | € | Yes | Yes |
-|  | [BioActive sensor](https://fr.hwlibre.com/moniteur-de-fr%C3%A9quence-cardiaque-max30102-et-module-oxym%C3%A8tre-pour-arduino/) | 7.49€ | Yes | Yes |
-|  | [glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1) | 35€ | No | to be defined |
+| Options | [thermometer laser]() | € | Yes | Yes |
+|  | [BioActive sensor](https://fr.hwlibre.com/moniteur-de-fr%C3%A9quence-cardiaque-max30102-et-module-oxym%C3%A8tre-pour-arduino/) | 7.49€ | No | Yes |
 |  | application | depends on host/online cost | No | Yes |
 | internal component | [electronic kit](https://www.amazon.fr/Miuzei-Electronique-R%C3%A9sistances-Alimentation-Programmation/dp/B0C5CD2DJW/ref=asc_df_B0C5CD2DJW?tag=bingshoppin0f-21&linkCode=df0&hvadid=79989660653509&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4583589124976046&psc=1) | 49.99€ | Yes | Yes |
-|  | [electronic power supply](https://www.leroymerlin.fr/produits/electricite-et-domotique/tableau-electrique-et-disjoncteur/module-de-commande-de-signalisation-et-de-protection/alimentation-electrique-mince-ip67-36w-transformateur-etanche-de-230v-a-12v-dc-3a-bandes-led-lampes-cameras-90320990.html?Megaboost) | 13.99€ | Yes | Yes |
-|  | [universal power socket](https://www.cdiscount.com/bricolage/electricite/alimentation-universelle-12v-dc-1-5a-ac-100-240v-5/f-16614-auc1695255794642.html) | 29.99€ | Yes | Yes |
-| total |  |  | 152.39€ | 199.38€ |
+|  | [Raspberry Pi](https://www.amazon.fr/gp/product/B07BDR5PDW/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=lfpoulain-21&linkId=252056d6ac9e69159f5b96d10e9801d4&language=fr_FR) | 52.90€ | Yes | Yes |
+|  | [micro SD card]() | 15€ | Yes | Yes |
+|  | [telemeter sensor](9.99) | € | Yes | Yes |
+|  | [male plug]() | 5€ | Yes | Yes |
+|  | [cables](https://www.amazon.fr/gp/product/B07HCLY31D/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=lfpoulain-21&linkId=92558ef8ffa2fded52866019426b9366&language=fr_FR&th=1) | 20.18€ | Yes | Yes |
+|  | [cable screen to raspberry]() | € | Yes | Yes |
+|  | [alimentation](https://www.amazon.fr/gp/product/B00MWQD43U/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=lfpoulain-21&linkId=382179bbb23e9cb361d9e6ec44eb9dc8&language=fr_FR&th=1) | 14.81€ | Yes | Yes |
+|  |  |  |  |  |
+| total |  |  | 169.87€ | 201.24€ |
 
 **Time conception**
 
@@ -314,6 +322,9 @@ First version :
 For this product, there is a main competitor called [Care OS](https://www.care-os.com). The company has already marketed Poseidon, a healthy mirror and has now developed a new mirror, [BMind](/BMind/BMind%20-%20Product%20sheet.pdf), with a lot of daily hygiene functions such as tooth brushing, water monitoring or skin analysis. There are also tools and entertainment such as games, videos or music to encourage children to take care of themselves.
 This product has around fifteen partners including [Teraillon](https://www.terraillon.com/en), one of the leading manufacturers of product for the home. There is also [Pierre Fabre](https://www.pierre-fabre.com/en), a major research laboratory into cancers and diseases of the body.
 Their mirror is not yet available for sale, but will cost between 3,000 and 5,000 dollars depending on the options chosen.
+
+**product problem**
+One of the big problems to consider with this mirror is the increase in people's paranoia about illness and the growing number of people suffering from hypochondria.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

@@ -4,7 +4,7 @@
 
 ### Description
 
-The Moonshot Project is a personnal project which is to be achieved in 5 years in order to put into practice what we have learned during the years spent at ALGOSUP.
+The Moonshot Project is a personal project which is to be achieved in 5 years in order to put into practice what we have learned during the years spent at ALGOSUP.
 
 <center>
 
@@ -16,7 +16,7 @@ Phoenix is a healthy mirror who allows to the customer to control his temperatur
 
 ![design](/img/design.png)
 
-With your Smartphone you have the possibility to track your datas.
+With your Smartphone you have the possibility to track your data.
 
 ![app design](/img/appDesign.png)
 
@@ -31,9 +31,9 @@ With your Smartphone you have the possibility to track your datas.
 ## Contributors
 
 | Name | Role | Description | Contact |
-| - | - | - | - | - |
-| Maxime CARON | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [mail](mailto:maxime.caron@algosup.com) |
-| Benoît DE KEIN | External advisor | give some advise hardware components | [mail](mailto:benoit.dekein@algosup.com) |
+| - | - | - | - |
+| Maxime CARON | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [Mail](mailto:maxime.caron@algosup.com) |
+| Benoît DE KEIN | External advisor | give some advise hardware components | [Mail](mailto:benoit.dekein@algosup.com) |
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
