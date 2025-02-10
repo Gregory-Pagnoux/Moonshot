@@ -67,7 +67,7 @@
 
 <center>
 
-![Pheonix](/img/logo.png)
+![Pheonix](/documents/img/Logo.png)
 
 </center>
 
@@ -95,7 +95,7 @@ These are habits you can start with the connected healthly mirror, Phoenix.
 
 By 2045, there will be 700 million diabetics worldwide and the number of accidents caused by alcohol has struggled to fall in recent years, this mirror should be of use to over 22 million French people.
 
-sources :
+*sources :*
 
 - [French Ministry of Health](https://sante.gouv.fr/soins-et-maladies/maladies/article/diabete#:~:text=Les%20chiffres%20clefs%20du%20diabète,700%20millions%20d%27ici%202045.)
 - [road safety](https://www.securite-routiere.gouv.fr/dangers-de-la-route/lalcool-et-la-conduite#:~:text=Les%20accidents%20impliquant%20de%20l,pour%20les%20accidents%20sans%20alcool.)
@@ -106,7 +106,7 @@ sources :
 
 ##### 1. Mirror
 
-![design](/img/design.png)
+![design](/documents/img/Design.png)
 
 - **switched off**
 
@@ -161,15 +161,15 @@ To open the application, you click on the icon that he appear on your smartphone
 
 **profil**
 
-![profil1](/img/profil1.png)
-![profil2](/img/profil2.png)
+![profil1](/documents/img/Profil1.png)
+![profil2](/documents/img/Profil2.png)
 
 On your profil, you can modify your profil picture, and add information about you age, your weight, and your size to calculate your BMI.
 
 **settings**
 
-![settings1](/img/settings1.png)
-![settings2](/img/settings2.png)
+![settings1](/documents/img/Settings1.png)
+![settings2](/documents/img/Settings2.png)
 
 On the settings page, you can modify your mail adress, and your password, you can change with the night or day mode, and change the language between french or english for the first time.
 
@@ -187,7 +187,7 @@ On the call page, you have the possibility to register all doctors such as gener
 
 The working mother who cares about her children's health
 
-![Sarah's persona](/img/Sarah.png)
+![Sarah's persona](/documents/img/Sarah.png)
 
 Sarah is a 35-year-old working mother with a hectic schedule. She's always concerned about her family's health, especially since they have a history of cancer and other diseases.
 
@@ -200,7 +200,7 @@ Sarah appreciates the convenience of accessing all this data through her smartph
 
 The Fitness Enthusiast
 
-![Michael's persona](/img/Michael.png)
+![Michael's persona](/documents/img/Michael.png)
 
 Michael is a 28-year-old fitness enthusiast who's always looking for ways to optimize his health and performance.
 
@@ -212,7 +212,7 @@ Being able to track all this data on his smartphone motivates Michael to stay co
 
 The Health-Conscious Senior
 
-![Emily's persona](/img/Emily.png)
+![Emily's persona](/documents/img/Emily.png)
 
 Emily is a 68-year-old retiree who takes her health very seriously. She's always been proactive about managing her health, especially since her family has a history of diabetes and other chronic conditions.
 
@@ -233,11 +233,11 @@ There are three different archives depending on the type of data :
 - **Intermediate archiving** where data are saved even after the purpose of data collection has been achieved as they are still of interest to the enterprise. The duration is set by the person responsible and must be relevant to its usefulness.
 - **Final archiving** where data that remains of great interest in the future without an end date are saved, after an upstream check.
 
-source :
+*source :*
 
- - [Acronis](https://www.acronis.com/fr-fr/blog/posts/gdpr/)
- - [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
- - [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
+- [Acronis](https://www.acronis.com/fr-fr/blog/posts/gdpr/)
+- [CNIL (general rules)](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)
+- [CNIL (datas backups duration)](https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees)
 
 #### D. Functional Requirements
 
@@ -263,7 +263,7 @@ The breathalyzer option has been abandoned because the system was too diffcult t
 
 #### E. Mirror Functional Analysis
 
-![functional analysis, mirror](/img/mirror_functional_analysis.png)
+![functional analysis, mirror](/documents/img/Mirror_Functional_Analysis.png)
 
 #### F. Non-functional Requirements
 
@@ -296,6 +296,10 @@ The breathalyzer option has been abandoned because the system was too diffcult t
 |  |  |  |  |  |
 | total |  |  | 169.87€ | 201.24€ |
 
+*sources :*
+
+- [Playlist intelligent miror](https://www.youtube.com/playlist?list=PLuyMGpc2xoZvJq_z1ZdqRLJSnPR_1JWfb)
+
 **Time conception**
 
 First version :
@@ -319,7 +323,7 @@ First version :
 
 **Competitors**
 
-For this product, there is a main competitor called [Care OS](https://www.care-os.com). The company has already marketed Poseidon, a healthy mirror and has now developed a new mirror, [BMind](/BMind/BMind%20-%20Product%20sheet.pdf), with a lot of daily hygiene functions such as tooth brushing, water monitoring or skin analysis. There are also tools and entertainment such as games, videos or music to encourage children to take care of themselves.
+For this product, there is a main competitor called [Care OS](https://www.care-os.com). The company has already marketed Poseidon, a healthy mirror and has now developed a new mirror, [BMind](../../archives/BMind/BMind%20-%20Product%20sheet.pdf), with a lot of daily hygiene functions such as tooth brushing, water monitoring or skin analysis. There are also tools and entertainment such as games, videos or music to encourage children to take care of themselves.
 This product has around fifteen partners including [Teraillon](https://www.terraillon.com/en), one of the leading manufacturers of product for the home. There is also [Pierre Fabre](https://www.pierre-fabre.com/en), a major research laboratory into cancers and diseases of the body.
 Their mirror is not yet available for sale, but will cost between 3,000 and 5,000 dollars depending on the options chosen.
 
@@ -331,18 +335,18 @@ One of the big problems to consider with this mirror is the increase in people's
 ### Glossary
 
 [^1]: **[Thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)**
-![thermometer laser](/img/thermometer_laser.jpg)
+![thermometer laser](/documents/img/Thermometer_Laser.jpg)
 It's a device allows to mesure the temperature of the body.
 
 [^2]: **[Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)**
-![Samsung Galaxy Watch 4](/img/Samsung_Galaxy_Watch_4.jpg)
+![Samsung Galaxy Watch 4](/documents/img/Samsung_Galaxy_Watch_4.jpg)
 Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
 [presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)
 
 [^3]: **[glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1)**
-![glucose meter](/img/glucose_meter.png)
+![glucose meter](/documents/img/Glucose_Meter.png)
 It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped.
 
 [^4]: **[breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)**
-![breathalyzer](/img/breathalyzer.png)
+![breathalyzer](/documents/img/Breathalyzer.png)
 Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.

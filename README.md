@@ -2,33 +2,35 @@
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Description
+## Description
 
 The Moonshot Project is a personal project which is to be achieved in 5 years in order to put into practice what we have learned during the years spent at ALGOSUP.
 
 <center>
 
-![Pheonix](/img/logo.png)
+![Pheonix](/documents/img/Logo.png)
 
 </center>
 
 Phoenix is a healthy mirror who allows to the customer to control his temperature with a thermometer laser, pulse thanks to BioActive sensor, diabetes with a glucose meter, and if he is alcoholic with a breathalyzer.
 
-![design](/img/design.png)
+![design](/documents/img/Design.png)
 
 With your Smartphone you have the possibility to track your data.
 
-![app design](/img/appDesign.png)
+![app design](/documents/img/AppDesign.png)
+![profil1](/documents/img/Profil1.png)
+![profil2](/documents/img/Profil2.png)
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Project owner
+## Project owner
 
 <img alt="grégory pagnoux" src="https://avatars.githubusercontent.com/u/114397869?s=400&v=4" width="135">
 
 [**`Grégory PAGNOUX`**](https://github.com/Gregory-Pagnoux)
 
-## Contributors
+### Contributors
 
 | Name | Role | Description | Contact |
 | - | - | - | - |
@@ -37,7 +39,7 @@ With your Smartphone you have the possibility to track your data.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Documents links / plan
+## Documents links
 
 01/01/2023 : [Idea of Moonshot Project](/archives/moonshot_project.md)
 
@@ -46,24 +48,26 @@ With your Smartphone you have the possibility to track your data.
 05/18/2023 : [Research document](/archives/mirror-health_research.md)
 
 08/10/2023 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
-<img alt="poster" src="/img/poster.png" width="350">
+<img alt="poster" src="/documents/img/Poster.png" width="350">
 *poster to share field survey to the public*
 
 08/10/2024 : [Financial plan](/archives/mirror-health_financial-plan.md)
 
-01/20/2024 : [Functional Specification](/Specifications/Functional_specification.md)
+01/20/2024 : [Functional Specification](/documents/Specifications/Functional_Specification.md)
 
 01/22/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
 
 03/15/2024 : [application protype](https://www.figma.com/proto/itl0GqhHh2b0oBDgE5sX7w/mirror-health?node-id=66-68&node-type=canvas&t=p0dVg4B7qXExj2Pm-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A131)
 
-11/08/2024 : [Technical Specifications](/Specifications/Technical_Specifications.md)
+11/08/2024 : [Technical Specifications](/documents/Specifications/Technical_Specifications.md)
 
-//2024 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
+//2025 : [Business model]()
 
-//2024 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
+//2025 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
 
-//2024 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
+//2025 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
+
+//2025 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

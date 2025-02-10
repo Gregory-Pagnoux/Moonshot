@@ -21,24 +21,25 @@
         - [c. Data Management Layer](#c-data-management-layer)
       - [2. Workflow Example](#2-workflow-example)
       - [4. Technology Stack](#4-technology-stack)
-    - [C. Technical constraints](#c-technical-constraints)
-      - [1. C coding convention](#1-c-coding-convention)
-      - [2. Implementation](#2-implementation)
-    - [D. How it work ?](#d-how-it-work-)
-    - [E. Program architecture diagram](#e-program-architecture-diagram)
+    - [C. Technical Constraints](#c-technical-constraints)
+      - [1. Writing Convention](#1-writing-convention)
+      - [2. Documents Architecture Convention](#2-documents-architecture-convention)
+      - [3. C Coding Convention](#3-c-coding-convention)
+    - [D. How It Work ?](#d-how-it-work-)
+    - [E. Program Architecture Diagram](#e-program-architecture-diagram)
   - [III. Quality Control](#iii-quality-control)
     - [A. Objectives](#a-objectives)
     - [B. Error Management and Corrections](#b-error-management-and-corrections)
     - [C. Documentation and Reporting](#c-documentation-and-reporting)
-  - [IV. Further considerations](#iv-further-considerations)
-    - [A. Cost estimation](#a-cost-estimation)
+  - [IV. Further Considerations](#iv-further-considerations)
+    - [A. Cost Estimation](#a-cost-estimation)
       - [1. Software](#1-software)
       - [2. Hardware](#2-hardware)
       - [3. Material](#3-material)
       - [4. Time \& Human](#4-time--human)
     - [B. Security](#b-security)
     - [C. Accessibility](#c-accessibility)
-  - [V. Success evaluation](#v-success-evaluation)
+  - [V. Success Evaluation](#v-success-evaluation)
   - [Glossary](#glossary)
 
 </details>
@@ -61,12 +62,13 @@
 |---|---|---|---|
 | 1.1 | Grégory PAGNOUX | 03/17/2024 | Template and make part I, II and Glossary |
 | 1.2 | Grégory PAGNOUX | 08/11/2024 | Finish part II/A/2 and make II/B |
+| 1.3 | Grégory PAGNOUX | 02/10/2025 | Writing and documents architecture conventions |
 
 ### C. Overview
 
 <center>
 
-![Pheonix](/img/logo.png)
+![Pheonix](/documents/img/Logo.png)
 
 </center>
 
@@ -77,7 +79,7 @@ With your Smartphone you have the possibility to track your datas.
 
 ### A. Descritpion
 
-![design](/img/design.png)
+![design](/documents/img/Design.png)
 
 #### 1. Mirror
 
@@ -230,13 +232,47 @@ Communication Protocols: Bluetooth Low Energy (BLE) for mirror-to-phone data syn
 
 This architecture allows Phoenix to be a connected, privacy-conscious, and user-friendly health monitoring solution, integrating multiple health sensors into a modular design for ease of future updates and enhancements.
 
-### C. Technical constraints
+### C. Technical Constraints
 
-#### 1. C coding convention
+#### 1. Writing Convention
+
+| Notation | How | Usage | Example |
+| :-: | :-: | :-: | :-: |
+| flatcase | we attach each word and in lowercase | naming folders | foldername |
+| Pascal_Snake_Case | we attach each word and write the first letter of each word in uppercase | naming files | File_Name |
+| comment = ```<!--word-->``` | write your comment inside to have a reminder of your informations without have it visible on the document | organise and summarise informations that you need to put on each part of your document | ```<!--The following declaration creates a query. It doesn't appear on the document.-->``` |
+| Titles = I.A.1.a | the first index is the most general title and the last one is to have the most detail part (preceded by #) | to have a clear idea of the organisation of the document | <pre> ```# I. Title name``` <br> ```## A. Title name``` <br> ```### 1. Title name``` <br> ```#### a. Title name``` </pre> |
+| Table of content | at the beginning of the document | find a specific part of the document without going through it all |  |
+| Glossary | at the end of the document | understand some word that we don't know without loose time on google |  |
+
+#### 2. Documents Architecture Convention
+
+```txt
+📦 MOONSHOT
+└── 📁 archives
+└── 📁 dev
+|    └── 📝 ... <!--TODO-->
+└── 📁 documents
+|    └── 📁 img
+|    |   └── 🖼️ Breathalyzer.png
+|    |   └── ...
+|    └── 📁 reports
+|    |   └── 📝 2024-05_Report.md
+|    |   └── ...
+|    └── 📁 specifications
+|    |   └── 📝 Functional_Specifications.md
+|    |   └── 📝 Technical_Specifications.md
+|    |   └── 📝 TestCase.md
+|    |   └── 📝 TestPlan.md
+└── 📝 Action_Plan.md
+└── 📝 README.md 
+```
+
+#### 3. C Coding Convention
 
 <!--TODO-->
 
-The language used to develop the project is ...
+The language used to develop the project is Arduino
 
 | Notation | How | Usage | Example |
 | :-: | :-: | :-: | :-: |
@@ -247,15 +283,12 @@ The language used to develop the project is ...
 
 *source : []()*
 
-#### 2. Implementation
+### D. How It Work ?
 
-The program is implemented by the technique of TDD. The program generate a general tree and use the BFS method and the pruning technique.
-
-### D. How it work ?
+<!--TODO-->
 
 **1. Tanks.cs file**
 
-Define every function/method/file we use that is external to the page.
 
 ```cs
 using System;
@@ -263,9 +296,9 @@ using System.Collections;
 using System.Threading.Tasks;
 ```
 
-![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+*Define every function/method/file we use that is external to the page.*
 
-Inside the namespace KrugApp, we start by define a new class "Tank" accessible
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ```cs
 namespace KrugApp
@@ -277,46 +310,11 @@ namespace KrugApp
 }
 ```
 
-![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+*Inside the namespace KrugApp, we start by define a new class "Tank" accessible*
 
-**2. Wines.cs file**
+### E. Program Architecture Diagram
 
-Define every function/method/file we use that is external to the page.
-
-```cs
-using System;
-```
-
-![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
-
-Inside the namespace KrugApp, we start by define a new class "Wine" accessible
-
-```cs
-namespace KrugApp
-{
-    public class Wine
-    {
-        ...
-    }
-}
-```
-
-![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
-
-### E. Program architecture diagram
-
-**1. V.1 of the algorithm**
-
-![Program Architechture Diagram](img/Architecture_diagram.png)
-This algorithm has been abandoned because :
-
-- Big O complexity is too high
-- Not the best option
-- Too much cases where it won't work
-
-**2. V.2 of the algorithm**
-
-![Program Architechture Diagram](img)
+![Program Architechture Diagram](/documents/img/Architecture_Diagram.png)
 
 ## III. Quality Control
 
@@ -344,9 +342,9 @@ Maintain a comprehensive record of the process. This should include:
 
 Weekly Reports: A consolidated report of the week's progress, challenges, and learnings.
 
-## IV. Further considerations
+## IV. Further Considerations
 
-### A. Cost estimation
+### A. Cost Estimation
 
 #### 1. Software
 
@@ -372,7 +370,7 @@ Weekly Reports: A consolidated report of the week's progress, challenges, and le
 
 <!--TODO-->
 
-## V. Success evaluation
+## V. Success Evaluation
 
 The program is scored according to the following criteria :
 
@@ -383,18 +381,18 @@ The program is scored according to the following criteria :
 ## Glossary
 
 [^1]: **[Thermometer laser](https://www.amazon.fr/Thermom%C3%A8tre-IDOIT-Thermometre-Infrarouge-Affichage/dp/B08DFXYWNN/ref=sr_1_32?adgrpid=54908680263&hvadid=275507361595&hvdev=c&hvlocphy=9055097&hvnetw=g&hvqmt=b&hvrand=18183104330674911873&hvtargid=kwd-312280216289&hydadcr=14196_1754673&keywords=thermometre+laser&qid=1683279299&sr=8-32)**
-![thermometer laser](/img/thermometer_laser.jpg)
+![thermometer laser](/documents/img/Thermometer_Laser.jpg)
 It's a device allows to mesure the temperature of the body.
 
 [^2]: **[Samsung Galaxy Watch 4](https://www.pocket-lint.com/fr-fr/montres-connectees/acheteurs-guides/samsung/157658-samsung-galaxy-watch-4-vs-galaxy-watch-4-differences-classiques-comparees/)**
-![Samsung Galaxy Watch 4](/img/Samsung_Galaxy_Watch_4.jpg)
+![Samsung Galaxy Watch 4](/documents/img/Samsung_Galaxy_Watch_4.jpg)
 Use the BioActive sensor technologie. It's a technology developed by Samsung for its connected watches which provides simple yet powerful measurements and insights that you can use to take control of your health.
 [presentation of BioActive sensor options](https://www.youtube.com/watch?v=yEoCDSwuJHc)
 
 [^3]: **[glucose meter](https://www.amazon.com/Glucose-Monitor-Glucometer-Lancets-Solution/dp/B08LYC288R/ref=zg_mw_3777171_sccl_2/147-1452400-9255329?psc=1)**
-![glucose meter](/img/glucose_meter.png)
+![glucose meter](/documents/img/Glucose_Meter.png)
 It's a device allows to mesure the concentration of glucose in the blood thanks a little needle and a strip glucose paper dipped.
 
 [^4]: **[breathalyzer](https://www.ebay.fr/itm/224971220617?chn=ps&mkevt=1&mkcid=28#rpdCntId)**
-![breathalyzer](/img/breathalyzer.png)
+![breathalyzer](/documents/img/Breathalyzer.png)
 Device which evaluate if you are alcoholic thanks to sensors that analyze the air when you blow.
