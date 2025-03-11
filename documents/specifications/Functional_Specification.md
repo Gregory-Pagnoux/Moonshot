@@ -53,15 +53,15 @@
 
 | Version n° | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-| 1.1 | Grégory PAGNOUX | 01/20/2024 | Initial Release |
-| 1.2 | Grégory PAGNOUX | 02/25/2024 | document improvement (mirror system purpose, document architecture) |
-| 1.3 | Grégory PAGNOUX | 03/03/2024 | document improvement (application system purpose, texts of personas and scenarios) |
-| 1.4 | Grégory PAGNOUX | 03/10/2024 | document improvement (pictures of personas, functional analysis) |
-| 1.5 | Grégory PAGNOUX | 06/02/2024 | document improvement (application details, and design) |
-| 1.6 | Grégory PAGNOUX | 10/15/2024 | end of the first version (mirror functional analysis, applications details) |
-| 2.1 | Grégory PAGNOUX | 11/09/2024 | modification of components |
-| 2.2 | Grégory PAGNOUX | 11/14/2024 | Update components, corections |
-| 2.3 | Grégory PAGNOUX | 01/30/2025 | Update components |
+| 1.1 | Grégory PAGNOUX | 2024/01/20 | Initial Release |
+| 1.2 | Grégory PAGNOUX | 2024/02/25 | document improvement (mirror system purpose, document architecture) |
+| 1.3 | Grégory PAGNOUX | 2024/03/03 | document improvement (application system purpose, texts of personas and scenarios) |
+| 1.4 | Grégory PAGNOUX | 2024/03/10 | document improvement (pictures of personas, functional analysis) |
+| 1.5 | Grégory PAGNOUX | 2024/06/02 | document improvement (application details, and design) |
+| 1.6 | Grégory PAGNOUX | 2024/10/15 | end of the first version (mirror functional analysis, applications details) |
+| 2.1 | Grégory PAGNOUX | 2024/11/09 | modification of components |
+| 2.2 | Grégory PAGNOUX | 2024/11/14 | Update components, corections |
+| 2.3 | Grégory PAGNOUX | 2025/01/30 | Update components |
 
 ### II. Project Overview
 

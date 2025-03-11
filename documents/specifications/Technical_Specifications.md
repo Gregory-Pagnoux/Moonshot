@@ -53,16 +53,16 @@
 | Document ID | #02 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
-| Issue date | 02/06/2024 |
+| Issue date | 2024/02/06 |
 | Document Name | Technical Specification |
 
 ### B. History
 
 | Version | Edits completed by | Date | Description of edit |
 |---|---|---|---|
-| 1.1 | Grégory PAGNOUX | 03/17/2024 | Template and make part I, II and Glossary |
-| 1.2 | Grégory PAGNOUX | 08/11/2024 | Finish part II/A/2 and make II/B |
-| 1.3 | Grégory PAGNOUX | 02/10/2025 | Writing and documents architecture conventions |
+| 1.1 | Grégory PAGNOUX | 2024/03/17 | Template and make part I, II and Glossary |
+| 1.2 | Grégory PAGNOUX | 2024/08/11 | Finish part II/A/2 and make II/B |
+| 1.3 | Grégory PAGNOUX | 2025/02/10 | Writing and documents architecture conventions |
 
 ### C. Overview
 
@@ -288,7 +288,6 @@ The language used to develop the project is Arduino
 <!--TODO-->
 
 **1. Tanks.cs file**
-
 
 ```cs
 using System;

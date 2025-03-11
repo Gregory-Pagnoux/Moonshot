@@ -3,7 +3,7 @@
 | Document ID | #06 |
 |---|---|
 | Document Owner | Grégory PAGNOUX |
-| Issue date | 02/05/2024 |
+| Issue date | 2024/02/05 |
 | Document Name | Action Plan |
 
 ## A - Specific short-term goals (1/2 weeks)
@@ -13,12 +13,12 @@
 
 ## B - Concrete actions to take starting tomorrow
 
-- Finish the technical specification
-  - Open my computer in a quiet room
-  - Read the functional
-  - Start to write part by part the technical
-- Define correctly the target, their needs, etc
-  - Ask questions directly to the real customer
+- [] Finish the technical specification
+  - [] Open my computer in a quiet room
+  - [] Read the functional
+  - [] Start to write part by part the technical
+- [X] Define correctly the target, their needs, etc
+  - [X] Ask questions directly to the real customer
 
 ## C - Possible obstacles and anticipated solutions
 

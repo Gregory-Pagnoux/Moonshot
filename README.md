@@ -41,35 +41,35 @@ With your Smartphone you have the possibility to track your data.
 
 ## Documents links
 
-01/01/2023 : [Idea of Moonshot Project](/archives/moonshot_project.md)
+2023/01/01 : [Idea of Moonshot Project](/archives/moonshot_project.md)
 
-04/17/2023 : [Presentation of the mirror health](/archives/mirror-health_product.md)
+2023/04/17 : [Presentation of the mirror health](/archives/mirror-health_product.md)
 
-05/18/2023 : [Research document](/archives/mirror-health_research.md)
+2023/05/18 : [Research document](/archives/mirror-health_research.md)
 
-08/10/2023 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
+2023/08/10 : release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8) <br>
 <img alt="poster" src="/documents/img/Poster.png" width="350">
 *poster to share field survey to the public*
 
-08/10/2024 : [Financial plan](/archives/mirror-health_financial-plan.md)
+2024/08/10 : [Financial plan](/archives/mirror-health_financial-plan.md)
 
-01/20/2024 : [Functional Specification](/documents/Specifications/Functional_Specification.md)
+2024/01/20 : [Functional Specification](/documents/Specifications/Functional_Specification.md)
 
-01/22/2024 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
+2024/01/22 : second release [field survey](https://forms.gle/DRDfuTzgF9muhY8D8)
 
-03/15/2024 : [application protype](https://www.figma.com/proto/itl0GqhHh2b0oBDgE5sX7w/mirror-health?node-id=66-68&node-type=canvas&t=p0dVg4B7qXExj2Pm-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A131)
+2024/03/15 : [application protype](https://www.figma.com/proto/itl0GqhHh2b0oBDgE5sX7w/mirror-health?node-id=66-68&node-type=canvas&t=p0dVg4B7qXExj2Pm-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A131)
 
-11/08/2024 : [Technical Specifications](/documents/Specifications/Technical_Specifications.md)
+2024/11/08 : [Technical Specifications](/documents/Specifications/Technical_Specifications.md)
 
-//2025 : [Business model]()
+2025/02/23 : [Business model](/documents/img/Business_Model.png)
 
-//2025 : [QCDSE](https://docs.google.com/document/d/1_H-wcQY_iAInv95kI3iQh92zyCA37LfbOUurZUEJ6dA/edit?usp=sharing)
+2025/03/11 : [QCDSE](/archives/QCDSE.pdf)
 
-//2025 : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
+2025// : [KPI](https://docs.google.com/spreadsheets/d/1vU4uwSvnlM3zdsvzGCOgKkJPxNbdX58Gv39i1P2Z-Oc/edit?usp=sharing)
 
-//2025 : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
+2025// : [Critical path](https://docs.google.com/spreadsheets/d/16l_xSyliKyvaUGKUd8Fu0jS4mcjDrUDyP90tedfbv9E/edit?usp=sharing)
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
 <summary>Retro Planning</summary>
@@ -111,22 +111,22 @@ With your Smartphone you have the possibility to track your data.
       - [ ] Technical
   - November :
     - [ ] Validation
-    - [ ] Conception
   - December :
-    - [ ] Conception
 - 2025
   - January
-    - [ ] Conception
   - February
-    - [ ] Conception
+    - [x] Business model
+    - [x] QCDSE
   - March
-    - [ ] Conception
+    - [ ] Specifications
+      - [x] Functional
+      - [ ] Technical
   - April
     - [ ] Conception
   - May
     - [ ] Conception
   - June
-    - [ ] Test
+    - [ ] Conception
   - July
     - [ ] Test
   - August
@@ -134,5 +134,6 @@ With your Smartphone you have the possibility to track your data.
   - September
     - [ ] Test
   - October
+    - [ ] Test
 
 </details>
