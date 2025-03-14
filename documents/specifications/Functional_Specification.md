@@ -298,7 +298,7 @@ The breathalyzer option has been abandoned because the system was too diffcult t
 
 *sources :*
 
-- [Playlist intelligent miror](https://www.youtube.com/playlist?list=PLuyMGpc2xoZvJq_z1ZdqRLJSnPR_1JWfb)
+- [Playlist intelligent miror](https://lesfrerespoulain.fr/magicmirror/)
 
 **Time conception**
 
