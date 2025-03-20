@@ -40,6 +40,9 @@
     - [B. Security](#b-security)
     - [C. Accessibility](#c-accessibility)
   - [V. Success Evaluation](#v-success-evaluation)
+    - [A. Functional Performance](#a-functional-performance)
+    - [B. User Experience](#b-user-experience)
+    - [C. Security \& Privacy](#c-security--privacy)
   - [Glossary](#glossary)
 
 </details>
@@ -63,6 +66,7 @@
 | 1.1 | Grégory PAGNOUX | 2024/03/17 | Template and make part I, II and Glossary |
 | 1.2 | Grégory PAGNOUX | 2024/08/11 | Finish part II/A/2 and make II/B |
 | 1.3 | Grégory PAGNOUX | 2025/02/10 | Writing and documents architecture conventions |
+| 1.4 | Grégory PAGNOUX | 2025/03/20 | Coding conventions and part IV and V |
 
 ### C. Overview
 
@@ -256,9 +260,12 @@ This architecture allows Phoenix to be a connected, privacy-conscious, and user-
 |    └── 📁 img
 |    |   └── 🖼️ Breathalyzer.png
 |    |   └── ...
-|    └── 📁 reports
-|    |   └── 📝 2024-05_Report.md
-|    |   └── ...
+|    └── 📁 Management
+|    |   └── 📁 reports
+|    |   |   └── 📝 2024-05_Report.md
+|    |   |   └── ...
+|    |   └── 📝 POULAIN_Mail_Report.md
+|    |   └── 📝 Template_Mail_Report.md
 |    └── 📁 specifications
 |    |   └── 📝 Functional_Specifications.md
 |    |   └── 📝 Technical_Specifications.md
@@ -270,16 +277,24 @@ This architecture allows Phoenix to be a connected, privacy-conscious, and user-
 
 #### 3. C Coding Convention
 
-<!--TODO-->
-
 The language used to develop the project is Arduino
 
 | Notation | How | Usage | Example |
 | :-: | :-: | :-: | :-: |
-| Pascal Casing | we attach each word and capitalize it to know where the next word starts (ex: DataService) | naming Class | <pre>```public class DataService```<br>```{```<br>```}```</pre> |
-|  |  | naming record | <pre>```public record PhysicalAddress(```<br>```)```</pre> |
-| comment = // | start each line with two slashes and an uppercase letter and finish the comment by a period. | give more information of the code | <pre>```// The following declaration creates a query. It does not run the query.```</pre> |
-|  |  |  |  |
+| **Pascal Casing** | Attach each word and capitalize it to know where the next word starts (e.g., `DataService`). | Naming Classes | ```cpp\nclass DataService {\n};``` |
+|  |  | Naming Records | ```cpp\nstruct PhysicalAddress {\n};``` |
+| **Camel Casing** | The first word is lowercase, and each subsequent word starts with a capital letter (e.g., `readSensorData`). | Naming Variables and Functions | ```cpp\nint readSensorData() {}``` |
+| **Snake Casing** | Use underscores between words (e.g., `led_status`). | Naming Constants (sometimes for readability) | ```cpp\nconst int led_status = 0;``` |
+| **Upper Snake Casing** | All letters are uppercase with underscores between words (e.g., `MAX_SPEED`). | Defining Constants and Macros | ```cpp\n#define MAX_SPEED 255``` |
+| **Comment `//`** | Start each line with two slashes and an uppercase letter and finish the comment with a period. | Giving more information about the code | ```cpp\n// The following declaration creates a query. It does not run the query.``` |
+| **Comment `/* */`** | Multi-line comments are enclosed between `/*` and `*/`. | Explaining larger sections of code | ```cpp\n/* This function reads sensor data. \n   It processes the input and returns a value. */``` |
+| **Indentation** | Use two or four spaces (no tabs) to align code blocks. | Improving readability | ```cpp\nvoid loop() {\n    digitalWrite(LED_BUILTIN, HIGH);\n}``` |
+| **Curly Braces `{ }`** | Place the opening brace `{` on the same line as the function/class definition and align the closing brace `}` properly. | Structuring Code Blocks | ```cpp\nvoid setup() {\n    pinMode(13, OUTPUT);\n}``` |
+| **Semicolons `;`** | Every statement must end with a semicolon (`;`). | Ending Statements | ```cpp\nint x = 10;``` |
+| **Function Names** | Use verbs to describe actions in camel case (e.g., `getTemperature`). | Naming Functions | ```cpp\nfloat getTemperature() {}``` |
+| **Constants** | Use `const` or `#define` with meaningful names. | Defining Fixed Values | ```cpp\nconst int LED_PIN = 13;``` |
+| **Variable Names** | Use descriptive names in camel case. Avoid single-letter names except for loop counters. | Naming Variables | ```cpp\nint sensorValue = analogRead(A0);``` |
+| **Pointer Notation** | Use `*` for pointer variables, and always initialize them. | Handling Memory Addresses | ```cpp\nint *ptr = &value;``` |
 
 *source : []()*
 
@@ -347,33 +362,128 @@ Weekly Reports: A consolidated report of the week's progress, challenges, and le
 
 #### 1. Software
 
-<!--TODO-->
+The software cost estimation considers development, testing, and maintenance expenses. The following factors contribute to the cost:
+
+- Development Costs: Salaries of software engineers, UI/UX designers, and testers.
+- Licensing Fees: Any third-party software or libraries required.
+- Cloud Services: Costs for data storage, backup, and syncing.
+- Maintenance: Updates, bug fixes, and feature enhancements.
+
+| Item | Estimated cost |
+| - | - |
+| Development Tools (IDEs, Libraries) | $2,000 |
+| UI/UX Design | $3,000 |
+| Cloud Services | $1,500/year |
+| Maintenance & Support | $5,000/year |
+|  |  |
+| Total | $11,500 (initial), $6,500/year |
+
+*We have to take in consideration that the project is realised by 1 student in 5 years free of charge, some of those charge are out of date or may vary.*
 
 #### 2. Hardware
 
-<!--TODO-->
+Hardware costs include components necessary for the functionality of the Phoenix mirror:
+
+- Microcontroller: Arduino or similar processing unit.
+- Sensors: Thermometer, Pulse sensor, Glucose meter, and Breathalyzer.
+- Display: Mirror-integrated LED or OLED display.
+- Connectivity: Bluetooth module for smartphone sync.
+- Power Supply: Adapter and battery backup.
+
+| Component | Estimated cost |
+| - | - |
+| Microcontroller (Arduino) | $50 |
+| Thermometer Sensor | $30 |
+| Pulse Sensor | $25 |
+| Glucose Meter Sensor | $40 |
+| Breathalyzer Sensor | $35 |
+| OLED Display | $60 |
+| Bluetooth Module | $20 |
+| Power Supply | $15 |
+|  |  |
+| Total | $275 per unit |
 
 #### 3. Material
 
-<!--TODO-->
+Materials for the mirror's construction include:
+
+- Frame and Glass: Smart mirror surface with reflective coating.
+- LED Lights: Illumination and indicator lights.
+- Mounting Kit: Brackets and screws for installation.
+
+| Material | Estimated cost |
+| - | - |
+| Screen |  |
+| Transparent Acrilic |  |
+| One Way Film | €11.99 |
+| Wood Glue |  |
+| Wooden Plank |  |
+| Hot Glue |  |
+|  |  |
+| Total |  |
 
 #### 4. Time & Human
 
-<!--TODO-->
+The estimated time and human resource allocation for the project:
+
+- Development Time: 6 months
+- Team Members: 5 Developers, 1 UI/UX Designers, 2 Testers, 1 Project Manager
+
+| Role | Number | Cost per month | Total Cost (6 months) |
+| - | - | - | - |
+| Developers | 5 | $5,000 | $150,000 |
+| UI/UX Designers | 2 | $4,000 | $48,000 |
+| Testers | 2 | $3,500 | $42,000 |
+| Project Manager | 1 | $6,000 | $36,000 |
+|  |  |  |  |
+| Total | 10 |  | $276,000 |
+
+*We have to take in consideration that the project is realised by 1 student in 5 years free of charge.*
 
 ### B. Security
 
-<!--TODO-->
+To ensure the security of the Phoenix mirror, the following measures are implemented:
+
+- Data Encryption: All user data is encrypted during storage and transmission.
+- Secure Bluetooth Communication: Implementing authentication and encryption for pairing with smartphones.
+- User Authentication: Users must authenticate via the mobile app before accessing sensitive data.
+- Regular Security Updates: Patching vulnerabilities and updating security protocols.
+- Compliance with GDPR: Ensuring data privacy and allowing users to control their information.
 
 ### C. Accessibility
 
-<!--TODO-->
+To ensure the Phoenix mirror is accessible to all users:
+
+- Voice Commands: Support for voice interactions to assist users with disabilities.
+- Large Display and High Contrast UI: Ensuring readability for visually impaired users.
+- Multiple Language Support: Available in multiple languages including English and French.
+- Mobile App Compatibility: Works on both Android and iOS devices.
+- Customizable Alerts: Users can receive notifications via sound, vibration, or visual cues.
+
+These considerations ensure that Phoenix is inclusive, secure, and cost-effective while delivering a high-quality user experience.
 
 ## V. Success Evaluation
 
-The program is scored according to the following criteria :
+To evaluate the success of the Phoenix Mirror project, the following key performance indicators (KPIs) and assessment criteria will be considered:
 
-- All features are accessible
+### A. Functional Performance
+
+- System Accuracy: Sensors provide at least 95% accuracy in measuring health metrics (e.g., temperature, pulse, glucose levels).
+- Real-time Processing: Data is processed and displayed within 2 seconds of measurement.
+- Connectivity Reliability: Bluetooth and cloud synchronization success rate of 98% or higher.
+- User Authentication Efficiency: Secure login with a failure rate of less than 1%.
+
+### B. User Experience
+
+- Ease of Use: User feedback surveys indicate at least 85% satisfaction in usability.
+- Accessibility Compliance: The mirror passes WCAG 2.1 AA standards for accessibility.
+- App Responsiveness: The mobile app loads and syncs within 3 seconds in 90% of test cases.
+
+### C. Security & Privacy
+
+- Data Protection: No critical security vulnerabilities are detected in penetration tests.
+- Compliance: The system complies with GDPR and HIPAA standards for data privacy.
+- Encryption Standards: All sensitive data is encrypted using AES-256.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
