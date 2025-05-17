@@ -24,6 +24,8 @@ With your Smartphone you have the possibility to track your data.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+All documents for the final render can be found on the folder "final_render". You can find the [Specifications](/final_render/Specifications.md) and the detailed [Report](/final_render/Report.md) of the project.
+
 ## Project owner
 
 <img alt="grégory pagnoux" src="https://avatars.githubusercontent.com/u/114397869?s=400&v=4" width="135">
@@ -36,6 +38,8 @@ With your Smartphone you have the possibility to track your data.
 | - | - | - | - |
 | Maxime CARON | External advisor | give some advise on what can be good or not, find some informqtion link to help me find the good way | [Mail](mailto:maxime.caron@algosup.com) |
 | Benoît DE KEIN | External advisor | give some advise hardware components | [Mail](mailto:benoit.dekein@algosup.com) |
+| Guillaume DESPAUX | External advisor | give some help for the electrical part | [Mail](mailto:guillaume.despaux@algosup.com) |
+| Mathias GAGNEPAIN | External advisor | give some advise on the Raspberry Pi | [Mail](mailto:mathias.gagnepain@algosup.com) |
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -122,11 +126,13 @@ With your Smartphone you have the possibility to track your data.
       - [x] Functional
       - [ ] Technical
   - April
-    - [ ] Conception
+    - [x] Learning
   - May
     - [ ] Conception
+    - [ ] Oral preparation
   - June
     - [ ] Conception
+    - [ ] Oral preparation
   - July
     - [ ] Test
   - August
