@@ -272,9 +272,8 @@ This architecture allows Phoenix to be a connected, privacy-conscious, and user-
 |    |   └── 📝 TestCase.md
 |    |   └── 📝 TestPlan.md
 |    └── 📝 Action_Plan.md
-└── 📁 final_render
-|    └── 📝 Specifications.md
-|    └── 📝 Report.md
+└── 📝 Final_Report.md
+└── 📝 Oral_Slides.pdf
 └── 📝 README.md 
 ```
 

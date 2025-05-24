@@ -1,11 +1,36 @@
-# Functional Specification
+# Final Report
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <details>
 <summary>📖 Table of content</summary>
 
-- [Functional Specification](#functional-specification)
+- [Final Report](#final-report)
+- [Detailed Report](#detailed-report)
+  - [Step-by-step planning at the start...](#step-by-step-planning-at-the-start)
+  - [...Then now](#then-now)
+    - [Find the idea - 2023/01](#find-the-idea---202301)
+      - [Problems encountered](#problems-encountered)
+      - [Solutions](#solutions)
+    - [Researches - 2023/05](#researches---202305)
+      - [Problems encountered](#problems-encountered-1)
+      - [Solutions](#solutions-1)
+    - [The opinion of potential users - 2023/08](#the-opinion-of-potential-users---202308)
+      - [Problems encountered](#problems-encountered-2)
+      - [Solutions](#solutions-2)
+    - [Define the project - 2024/01](#define-the-project---202401)
+      - [Problems encountered](#problems-encountered-3)
+      - [Solutions](#solutions-3)
+    - [Develop the project - 2025/03](#develop-the-project---202503)
+      - [Problems encountered](#problems-encountered-4)
+      - [Solutions](#solutions-4)
+    - [Document the project - 2025/05](#document-the-project---202505)
+      - [Problems encountered](#problems-encountered-5)
+      - [Solutions](#solutions-5)
+    - [Prepare the first oral - 2025/05](#prepare-the-first-oral---202505)
+      - [Problems encountered](#problems-encountered-6)
+      - [Solutions](#solutions-6)
+- [Functional Specifications](#functional-specifications)
   - [I. Document](#i-document)
     - [A. Information](#a-information)
     - [B. History](#b-history)
@@ -74,6 +99,133 @@
     - [Glossary](#glossary)
 
 </details>
+
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# Detailed Report
+
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Step-by-step planning at the start...
+
+At the beginning, When I start ALGOSUP, I have to think about an idea, that answer to a real problem encounter by a lot of people, that is not a video game or a web site, and the solution is realistic, feasible, but not too easy.
+Then I have to develop the idea so that it adapts perfectly to the expectations of real users.
+The third phase is the development following by the test.
+Then comes the first oral for the which aims to present the project to a Jury with a Minimal Viable Product (MVP).
+After initial user feedback, the solution had to be corrected and improved to ensure a reliable product for the user.
+Finally, the last presentation to show a finished product in version 2, accompanied by a business model and a detailed plan of the project's next steps.
+
+## ...Then now
+
+### Find the idea - 2023/01
+
+I take the time during my first months to brainstorm with my family and my friends to find a subject, something that can be personnal to increase my involvement in the project.
+I like music and take care of me.
+All that's left is to find two problems, and to do that, I had to study the habits of my loved ones. In relation to music, I hadn't managed to find a sufficiently important and interesting problem, but I had come up with the idea of a digital plate for playing music. However, this idea was very much on the design side. On the other hand, to take care of myself, all I had to do was count the number of people who suffered from an illness that was taken care of far too late, or simply because they hadn't taken care of their health.
+I had my problem:
+
+- How to help people take care of themselves and avoid the risks of serious illnesses, cancers and complications due to untreated disease.
+
+I have to find a pratical solution that can help and serve
+I find my solution:
+
+- A mirror of health
+
+![Mirror Design](/documents/img/Design.png)
+
+#### Problems encountered
+
+The subject of health is vast, far too broad to be able to deal with all the illnesses that exist. So a choice had to be made regarding the diseases and features that the mirror should contain, if the project was to be of any real interest.
+
+#### Solutions
+
+To achieve this, there was two things that I can do: make some researches and ask users what they really needed.
+
+### Researches - 2023/05
+
+The first thing I research is any competitors that can who can “overshadow” me.
+In the world of connected objects, the health sector is very recent, with the development of watches for sleep, pulse and kilometers walked. So when it comes to mirrors, there's hardly any competition.
+I have also to find which usefull features I can add to my mirror
+
+#### Problems encountered
+
+The only competitor that I can find is [Care OS](https://www.care-os.com) and their connected mirror based on lifestyle and entertainment.
+
+#### Solutions
+
+My mirror is much more based on health and prevention, so is not a direct competitor, but rather an indirect, complementary one.
+For features, I found some basics ones like take the body temperature, print the clock and modify it, and some others that are more elaborate like take the pulse, calculate your glucose level in the blood.
+
+### The opinion of potential users - 2023/08
+
+Finally, the best thing is the opinion of the user. So a [survey](https://forms.gle/DRDfuTzgF9muhY8D8) was shared on all my social networks ([instagram](https://www.instagram.com/gregory.pgnx/), [LinkedIn](https://www.linkedin.com/in/grégory-pagnoux/), Facebook) and relayed by my friends and family, as well as posters displayed in all pharmacies, shopping centers and the hospital in Vierzon and in the towns near me.
+
+<img alt="poster" src="/documents/img/Poster.png" width="350">
+
+#### Problems encountered
+
+I've had very little feedback on the shared survey, not enough figures to constitute a good study, but still some interesting remarks to look into:
+
+- Why a mirror and not something smaller that I could take everywhere?
+- Why would I buy a mirror when a connected watch can already do it?
+
+#### Solutions
+
+So the thing I need to focus on most when making the mirror is answering these two questions, making sure my product makes them want to buy it. My mirror must be the answer to their questions.
+Why a mirror? Because everyone has one and walks past it at home every morning.
+Why buy a mirror rather than a watch? Because taking your temperature, your pulse, your glucose level should be a simple daily check. Let's not get hypochondriacal!
+
+### Define the project - 2024/01
+
+<!--TODO-->
+
+#### Problems encountered
+
+<!--TODO-->
+
+#### Solutions
+
+<!--TODO-->
+
+### Develop the project - 2025/03
+
+<!--TODO-->
+
+#### Problems encountered
+
+<!--TODO-->
+
+#### Solutions
+
+<!--TODO-->
+
+### Document the project - 2025/05
+
+<!--TODO-->
+
+#### Problems encountered
+
+<!--TODO-->
+
+#### Solutions
+
+<!--TODO-->
+
+### Prepare the first oral - 2025/05
+
+<!--TODO-->
+
+#### Problems encountered
+
+<!--TODO-->
+
+#### Solutions
+
+<!--TODO-->
+
+![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# Functional Specifications
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -597,10 +749,9 @@ This architecture allows Phoenix to be a connected, privacy-conscious, and user-
 |    |   └── 📝 TestCase.md
 |    |   └── 📝 TestPlan.md
 |    └── 📝 Action_Plan.md
-└── 📁 final_render
-|    └── 📝 Specifications.md
-|    └── 📝 Report.md
-└── 📝 README.md 
+└── 📝 Final_Report.md
+└── 📝 Oral_Slides.pdf
+└── 📝 README.md
 ```
 
 #### 3. C Coding Convention
@@ -786,6 +937,8 @@ To evaluate the success of the Phoenix Mirror project, the following key perform
 - Data Protection: No critical security vulnerabilities are detected in penetration tests.
 - Compliance: The system complies with GDPR and HIPAA standards for data privacy.
 - Encryption Standards: All sensitive data is encrypted using AES-256.
+
+---
 
 ### Glossary
 
