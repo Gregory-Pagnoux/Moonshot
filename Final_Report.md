@@ -7,6 +7,7 @@
 
 - [Final Report](#final-report)
 - [Detailed Report](#detailed-report)
+  - [Document Information](#document-information)
   - [Step-by-step planning at the start...](#step-by-step-planning-at-the-start)
   - [...Then now](#then-now)
     - [Find the idea - 2023/01](#find-the-idea---202301)
@@ -24,12 +25,10 @@
     - [Develop the project - 2025/03](#develop-the-project---202503)
       - [Problems encountered](#problems-encountered-4)
       - [Solutions](#solutions-4)
-    - [Document the project - 2025/05](#document-the-project---202505)
+    - [Prepare the first oral - 2025/05](#prepare-the-first-oral---202505)
       - [Problems encountered](#problems-encountered-5)
       - [Solutions](#solutions-5)
-    - [Prepare the first oral - 2025/05](#prepare-the-first-oral---202505)
-      - [Problems encountered](#problems-encountered-6)
-      - [Solutions](#solutions-6)
+  - [What is planned for the future](#what-is-planned-for-the-future)
 - [Functional Specifications](#functional-specifications)
   - [I. Document](#i-document)
     - [A. Information](#a-information)
@@ -106,6 +105,14 @@
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## Document Information
+
+| Document ID | #11 |
+|---|---|
+| Document Owner | Grégory PAGNOUX |
+| Issue date | 10/31/2025 |
+| Document Name | Detailed Report |
+
 ## Step-by-step planning at the start...
 
 At the beginning, When I start ALGOSUP, I have to think about an idea, that answer to a real problem encounter by a lot of people, that is not a video game or a web site, and the solution is realistic, feasible, but not too easy.
@@ -168,60 +175,63 @@ I've had very little feedback on the shared survey, not enough figures to consti
 
 - Why a mirror and not something smaller that I could take everywhere?
 - Why would I buy a mirror when a connected watch can already do it?
+- Can the mirror help someone who doesn't have a disease?
 
 #### Solutions
 
 So the thing I need to focus on most when making the mirror is answering these two questions, making sure my product makes them want to buy it. My mirror must be the answer to their questions.
 Why a mirror? Because everyone has one and walks past it at home every morning.
 Why buy a mirror rather than a watch? Because taking your temperature, your pulse, your glucose level should be a simple daily check. Let's not get hypochondriacal!
+Can the mirror help everyone? I hope yes, but maybe the target isn't well defined. I discuss about that with some people and the conclusion was the product can be really usefull for hospitals, retirement home, and other medical facilities.
 
 ### Define the project - 2024/01
 
-<!--TODO-->
+I start to write the [Functional](#functional-specifications) then the [Technical Specifications](#technical-specifications) where the scope, all features, all criterias, what I wanted, and above all what I didn't want are define in those documents.
 
 #### Problems encountered
 
-<!--TODO-->
+This project requires hardware understanding skill that I didn't have and define which language I had to use, which hardware select is a real challenge for me that I had to overcome.
 
 #### Solutions
 
-<!--TODO-->
+Fortunately for me, I have some friends that know about the subject and firstly help me to define correctly the project to make the best choice of components. They find also a French duo ([Les frères Poulain](https://www.youtube.com/c/lesfrerespoulain)) that build a similar mirror based on the entertainment which allowed me to use it as a basis for my work.
+So for the mirror I use a Raspberry Pi with the C++ language. The advantage of those choices are because their is a lot of documentation on Raspberry that can help me to easily understand how it works and C++ is a common language that I'm less familiar with than Python and this is more challenging for me to learn new things. C++ is also widely used in this field because it's really efficient.
 
 ### Develop the project - 2025/03
 
-<!--TODO-->
+After defining the project, I had to buy components and develop the project. The development phase is split in two part, the learning then the implementation. To learn how to use the hardware, I had to ask to my friends if they can help me and advice me some websites or application that could be useful.
 
 #### Problems encountered
 
-<!--TODO-->
+The real problems start at this step. A lot of time has passed between the moment I finished to define my project and when I bought the minimum of components I needed to start the implementation.
+The first reason why is the lack of motivation that is an invalid reason of not regularly working on the project. The second one is the lack of money to buy directly the components. The last one is some personnal problem that have delayed some of my deadline during my third year at ALGOSUP.
+When I received all components that I bought, I thought I could move on and progress, but my Rasperry Pi had some problems to connect to the Internet.
+
+passé sur arduino, apprendre le arduino
 
 #### Solutions
 
-<!--TODO-->
-
-### Document the project - 2025/05
-
-<!--TODO-->
-
-#### Problems encountered
-
-<!--TODO-->
-
-#### Solutions
-
-<!--TODO-->
+For those problems, there is a lot a solution. Concerning the lack of motivation, I have to fix me deadlines and plan some hours to work correctly in the week. For the others, I have to deal with what I have.
+After two weeks lost trying to connect the Rasberry Pi to the Internet, I choose to use the little arduino card work as I could but I had to relearn from the start the arduino, how to connect to the electronic circuit I used. Unfortunately, the time missing and I couldn't loose time to prepare the oral.
 
 ### Prepare the first oral - 2025/05
 
-<!--TODO-->
+To prepare the oral, I have to write one document where all Specifications are grouped together with a Report. I have to explain what I do, why, what are the problems that I encountered, and how I solved them.
 
 #### Problems encountered
 
-<!--TODO-->
+The big problem of doing the Report is to remember what I did two years ago, which decision I took.
 
 #### Solutions
 
-<!--TODO-->
+Fortunately, each documents I wrote, usefull or not, cant be found my repository. On the README are grouped all document usefull for the project with a schedule at the end, useless one are on the Archives folder.
+
+## What is planned for the future
+
+The next step is to develop correctly the first version of the product and have first users feedbacks.
+To accomplish that, I have to reorganize myself during summer hollidays and continue learning the technology. 
+In that case, I'll be able to start implementing the first features of the mirror and, probably in January, launch user tests.
+Following this, I should be able to correct the bugs and implement new features by the summer of 2026.
 
 ![-](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -237,7 +247,7 @@ Why buy a mirror rather than a watch? Because taking your temperature, your puls
 |---|---|
 | Document Owner | Grégory PAGNOUX |
 | Issue date | 10/31/2024 |
-| Document Name | Functional Specification|
+| Document Name | Functional Specification |
 
 ### B. History
 
@@ -756,7 +766,7 @@ This architecture allows Phoenix to be a connected, privacy-conscious, and user-
 
 #### 3. C Coding Convention
 
-The language used to develop the project is Arduino
+The language used to develop the project is CPP on Raspberry Pi
 
 | Notation | How | Usage | Example |
 | :-: | :-: | :-: | :-: |
